@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{41812B38-3C20-4EE0-912F-EAEC2853118C}" SchemaVersion="123" RootDocumentID="{51AD7ABA-5E77-436E-842E-A590062A15D3}" ParentDocumentID="{B613F5AF-734D-433F-9F2C-B80E6092E64B}">
+	<AudioObjects>
+		<WorkUnit Name="AmbElements" ID="{41812B38-3C20-4EE0-912F-EAEC2853118C}" OwnerID="{B613F5AF-734D-433F-9F2C-B80E6092E64B}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="AmbElements" ID="{A4DAC297-9FC6-4682-AB25-43FA261577F0}" ShortID="451935412">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="AO_Ambience" ID="{AD792DCF-6DF3-433A-9FD9-299C95B51973}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="GroundTorch" ID="{872DE163-784F-47CB-9128-372ABD6B4494}" ShortID="83809099">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="att_Torch" ID="{08F70723-9639-4003-BEC4-68BE67E6534E}" WorkUnitID="{8E4F707C-1989-45FA-96AA-DF600FCD6A87}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AO_Ambience" ID="{AD792DCF-6DF3-433A-9FD9-299C95B51973}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="GroundTorch_Crackle" ID="{936578D6-F3DC-440B-AA25-93AFFCD4F573}" ShortID="326781900">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="GroundTorch_Crackle Positional Flybys" ID="{10FEAA49-0DF8-4D8F-809B-0366E3BCC711}" ShortID="7214765">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="att_Torch_Crackle" ID="{4FD95EBE-7FC0-4558-A460-D39963D9D9D6}" WorkUnitID="{8E4F707C-1989-45FA-96AA-DF600FCD6A87}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+												</Reference>
+											</ReferenceList>
+											<PositioningInfo>
+												<Position Name="" ID="{489117CC-BD77-4927-83C0-38FAD3A1B73E}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="GroundTorch_Crackle Positional Flybys_Path" ID="{F04C8024-986F-4BA4-BFC2-E80C85582F05}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="1"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>10</YPos>
+																	<ZPos>8</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Flybys_Path_01" ID="{BDF03E61-8BB8-4A9F-92CF-574F52245A7F}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="1"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-10</XPos>
+																	<YPos>10</YPos>
+																	<ZPos>8</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Flybys_Path_02" ID="{7F0EC9F6-9756-4438-80F9-5FA2E3487616}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="1"/>
+																<Property Name="RandomY" Type="Real64" Value="1"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<ZPos>8</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="GroundTorch_Crackle Positional Random" ID="{F4AA6941-8AE5-42BC-82C8-E812DD7404D2}" ShortID="222961181">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="att_Torch_Crackle" ID="{4FD95EBE-7FC0-4558-A460-D39963D9D9D6}" WorkUnitID="{8E4F707C-1989-45FA-96AA-DF600FCD6A87}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+												</Reference>
+											</ReferenceList>
+											<PositioningInfo>
+												<Position Name="" ID="{12E3C0F0-E219-4705-B1F9-A9BBF9958FC3}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="GroundTorch_Crackle Positional Random_Path" ID="{8AA1A30B-DB87-48ED-B380-9BB006308142}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="5"/>
+																<Property Name="RandomY" Type="Real64" Value="2"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Random_Path_01" ID="{A04FF10A-6753-4155-813D-3463FED5DE5F}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="2"/>
+																<Property Name="RandomY" Type="Real64" Value="2"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Random_Path_02" ID="{182C52B4-D8FA-4707-A9A7-F4381033D540}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="2"/>
+																<Property Name="RandomY" Type="Real64" Value="2"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="CeilingTorch" ID="{BBFE3FBE-02F0-4584-8628-00CA08A6FB7E}" ShortID="600485077">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+								<Property Name="VirtualVoiceQueueBehavior" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="att_Torch" ID="{08F70723-9639-4003-BEC4-68BE67E6534E}" WorkUnitID="{8E4F707C-1989-45FA-96AA-DF600FCD6A87}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="AO_Ambience" ID="{AD792DCF-6DF3-433A-9FD9-299C95B51973}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="GroundTorch_Crackle" ID="{DF9D5343-4DE1-4814-A348-0269E71C21F8}" ShortID="355166994">
+									<PropertyList>
+										<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+										<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="GroundTorch_Crackle Positional Flybys" ID="{8BE6A4FB-1DD8-4E56-A56F-859EF7920C43}" ShortID="965502410">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="att_Torch_Crackle" ID="{4FD95EBE-7FC0-4558-A460-D39963D9D9D6}" WorkUnitID="{8E4F707C-1989-45FA-96AA-DF600FCD6A87}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+												</Reference>
+											</ReferenceList>
+											<PositioningInfo>
+												<Position Name="" ID="{5A228417-6840-4344-B43E-4CCBC94F650E}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="GroundTorch_Crackle Positional Flybys_Path" ID="{54E647B9-46AB-4E04-BDF8-6C7E328B468C}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="1"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>10</YPos>
+																	<ZPos>8</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Flybys_Path_01" ID="{8C7D0DDE-3D66-4FAA-B1C2-DD3A6A5A512E}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="1"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-10</XPos>
+																	<YPos>10</YPos>
+																	<ZPos>8</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Flybys_Path_02" ID="{C316F631-D46D-41DE-B10E-A90013037801}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="1"/>
+																<Property Name="RandomY" Type="Real64" Value="1"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>10</XPos>
+																	<YPos>10</YPos>
+																	<ZPos>8</ZPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>0</Flags>
+																	<Time>5000</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="GroundTorch_Crackle Positional Random" ID="{B36B8ECB-E55A-4568-8D1B-7146A6F95495}" ShortID="445519861">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="att_Torch_Crackle" ID="{4FD95EBE-7FC0-4558-A460-D39963D9D9D6}" WorkUnitID="{8E4F707C-1989-45FA-96AA-DF600FCD6A87}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+												</Reference>
+											</ReferenceList>
+											<PositioningInfo>
+												<Position Name="" ID="{8C5AF365-8FF0-443D-8504-F348C5218B5A}">
+													<PropertyList>
+														<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="GroundTorch_Crackle Positional Random_Path" ID="{24E9E6B7-855A-4C64-BFF8-E8049009A80A}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="5"/>
+																<Property Name="RandomY" Type="Real64" Value="2"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Random_Path_01" ID="{114C1889-B2D0-4535-A9E4-7797D9851207}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="2"/>
+																<Property Name="RandomY" Type="Real64" Value="2"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="GroundTorch_Crackle Positional Random_Path_02" ID="{DA3CC30A-9AAA-40DC-997D-DB9D7EA844AA}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="2"/>
+																<Property Name="RandomY" Type="Real64" Value="2"/>
+																<Property Name="RandomZ" Type="Real64" Value="10"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

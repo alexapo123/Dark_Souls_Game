@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A8344E3-85BB-44F2-9D4D-FA9B3A6E9ADA}" SchemaVersion="123" RootDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" ParentDocumentID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}">
+	<Events>
+		<WorkUnit Name="Boss_Combat" ID="{6A8344E3-85BB-44F2-9D4D-FA9B3A6E9ADA}" OwnerID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Boss_Attack" ID="{8DDAE4F7-0EFA-4C25-84E3-AF1BEA2D2724}" ShortID="924665751">
+					<ChildrenList>
+						<Event Name="Play_Heavy_Attack_Impact_Grux" ID="{7321D54E-7BD7-49B7-8384-7BCE49E2C755}">
+							<ChildrenList>
+								<Action Name="" ID="{FD228C2D-6525-4605-A665-69539333FCFF}" ShortID="516080188"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Whoosh_Normal_Grux" ID="{99CF4AF9-E787-4A09-BA51-A76A06FF2893}">
+							<ChildrenList>
+								<Action Name="" ID="{D587F3C1-4602-4F3B-83DB-D5C905E46C26}" ShortID="99570325"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Whoosh_Heavy_Grux" ID="{D1161894-C152-45C2-934D-BFB8578DE3D2}">
+							<ChildrenList>
+								<Action Name="" ID="{708F55A4-7268-4DF8-99E8-A499DD9A538D}" ShortID="418763796"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Boss_Hit" ID="{1E268E92-EFD3-44AB-B31A-FC1EE006FFFB}" ShortID="794861730">
+					<ChildrenList>
+						<Event Name="Play_Hit_Grux_Normal_Player" ID="{EA0A3210-3532-4C09-A92B-4EB0ADDA313B}">
+							<ChildrenList>
+								<Action Name="" ID="{5F512641-0487-4078-80F9-78150D222785}" ShortID="492495276"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hit_Grux_Heavy_Player" ID="{7FE62538-5620-407D-BC24-A70DD68228B8}">
+							<ChildrenList>
+								<Action Name="" ID="{050FDA2E-DC22-4DE1-A635-24D25D417782}" ShortID="614879641"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Boss_Die" ID="{523F7CA6-24D6-4790-B9AB-9D60C8C0B6B6}" ShortID="633849598">
+					<ChildrenList>
+						<Event Name="Play_Die_Grux" ID="{570E31BB-3C17-43D0-A756-B0208E6FDC12}">
+							<ChildrenList>
+								<Action Name="" ID="{B52AD3EC-8430-48E5-8696-F7CA980E0251}" ShortID="530986687"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A34251B8-09C9-49CC-8999-F9603B0CE23E}" SchemaVersion="123" RootDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" ParentDocumentID="{714B369C-BD60-49DF-8D8C-1CA3D46A4BF7}">
+	<AudioObjects>
+		<WorkUnit Name="NPC_EnemyBoss_Combat" ID="{A34251B8-09C9-49CC-8999-F9603B0CE23E}" OwnerID="{714B369C-BD60-49DF-8D8C-1CA3D46A4BF7}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="BossAttack" ID="{4F6673AC-B480-4BFF-892E-C085F86ED3DA}" PersistMode="Reference"/>
+				<WorkUnit Name="BossDamage" ID="{1EAF60B2-1A99-42B7-AF61-0F29836611EB}" PersistMode="Reference"/>
+				<WorkUnit Name="BossDie" ID="{00AB022D-6E11-4A4C-A924-5AB0D16D122D}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

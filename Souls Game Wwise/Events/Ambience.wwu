@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Ambience" ID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="3DAmbience" ID="{7CB8FA76-932B-4838-A181-3BBBBAE1F41E}" PersistMode="Reference"/>
+				<WorkUnit Name="AmbientBeds" ID="{1E04887F-FDDE-426C-952C-3E976792BF5F}" PersistMode="Reference"/>
+				<WorkUnit Name="WorldObjects" ID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

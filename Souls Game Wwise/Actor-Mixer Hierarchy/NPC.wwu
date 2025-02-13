@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="NPC" ID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="NPC_EnemyNormal" ID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}" PersistMode="Reference"/>
+				<WorkUnit Name="NPC_EnemyBoss" ID="{714B369C-BD60-49DF-8D8C-1CA3D46A4BF7}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

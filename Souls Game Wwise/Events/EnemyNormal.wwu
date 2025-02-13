@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}" SchemaVersion="123" RootDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" ParentDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}">
+	<Events>
+		<WorkUnit Name="EnemyNormal" ID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}" OwnerID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="EnemyNormal_Combat" ID="{9317C2BA-9E10-4095-9A22-C0A0AD83B876}" PersistMode="Reference"/>
+				<WorkUnit Name="EnemyNormal_Locomotion" ID="{7ACE55B2-6416-441B-A52B-FE7E322E7FC9}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9317C2BA-9E10-4095-9A22-C0A0AD83B876}" SchemaVersion="123" RootDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" ParentDocumentID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}">
+	<Events>
+		<WorkUnit Name="EnemyNormal_Combat" ID="{9317C2BA-9E10-4095-9A22-C0A0AD83B876}" OwnerID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="EnemyNormal_Attack" ID="{A70F3FAC-58D8-4950-9BDA-11FD00960F40}" ShortID="610213893">
+					<ChildrenList>
+						<Event Name="Play_Whoosh_Normal_Skeleton" ID="{10137427-3437-4ED2-97EF-143DB78C62E8}">
+							<ChildrenList>
+								<Action Name="" ID="{23E75FC1-7FB1-4F22-BDA7-EB304CDF26A8}" ShortID="171274003"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EnemyNormal_Hit" ID="{F649375A-F263-420A-B6CC-E6586503A860}" ShortID="816012221">
+					<ChildrenList>
+						<Event Name="Play_Hit_Skeleton_Normal_Player" ID="{2844EDDF-1056-4DB2-A3BF-E50A41D536F4}">
+							<ChildrenList>
+								<Action Name="" ID="{B22CCF57-A20E-4A59-8F0A-E3673D5ADC4E}" ShortID="717956389"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hit_Skeleton_Heavy_Player" ID="{BBEF000E-60DE-4A5B-9A4C-ADFAF771F8D1}">
+							<ChildrenList>
+								<Action Name="" ID="{34FDAD4F-F028-4A03-9E0A-F07ABC891E23}" ShortID="380226078"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="EnemyNormal_Die" ID="{7A550DC0-E2F8-4E5B-AC43-8F380E4960B8}" ShortID="1012926315">
+					<ChildrenList>
+						<Event Name="Play_Die_EnemyNormal" ID="{84AD25F5-C917-4ADB-B09B-490D27660C02}">
+							<ChildrenList>
+								<Action Name="" ID="{965F212D-F296-499B-8280-528AB0C778D0}" ShortID="707992460"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

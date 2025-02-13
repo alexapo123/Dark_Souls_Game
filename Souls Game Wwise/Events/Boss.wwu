@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}" SchemaVersion="123" RootDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" ParentDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}">
+	<Events>
+		<WorkUnit Name="Boss" ID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}" OwnerID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="Boss_Combat" ID="{6A8344E3-85BB-44F2-9D4D-FA9B3A6E9ADA}" PersistMode="Reference"/>
+				<WorkUnit Name="Boss_Locomotion" ID="{F63CF153-3A39-4206-88AE-A8F826F2542A}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

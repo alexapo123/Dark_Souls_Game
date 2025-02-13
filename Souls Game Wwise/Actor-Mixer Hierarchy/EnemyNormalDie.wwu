@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1BAAA4D9-89C2-4D25-A14E-B046B7606D0B}" SchemaVersion="123" RootDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" ParentDocumentID="{6E1A6069-5C56-4B57-87D5-99B2A072E92B}">
+	<AudioObjects>
+		<WorkUnit Name="EnemyNormalDie" ID="{1BAAA4D9-89C2-4D25-A14E-B046B7606D0B}" OwnerID="{6E1A6069-5C56-4B57-87D5-99B2A072E92B}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

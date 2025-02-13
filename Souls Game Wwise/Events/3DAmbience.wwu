@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7CB8FA76-932B-4838-A181-3BBBBAE1F41E}" SchemaVersion="123" RootDocumentID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" ParentDocumentID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}">
+	<Events>
+		<WorkUnit Name="3DAmbience" ID="{7CB8FA76-932B-4838-A181-3BBBBAE1F41E}" OwnerID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_WindGusts_Concat" ID="{E6B88178-AE4A-4806-BD37-54AEB91669E1}"/>
+				<Event Name="Play_Crows_Concat" ID="{84E7E11F-7370-4520-93E9-5A1B4E46F177}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

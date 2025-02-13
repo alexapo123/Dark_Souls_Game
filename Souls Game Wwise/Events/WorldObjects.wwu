@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" SchemaVersion="123" RootDocumentID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" ParentDocumentID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}">
+	<Events>
+		<WorkUnit Name="WorldObjects" ID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" OwnerID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Loops" ID="{9470FA87-F7D3-442E-A61D-9E1E6D476FEE}" ShortID="1022455433">
+					<ChildrenList>
+						<Folder Name="Torches" ID="{C530EA27-2E3F-4620-AE48-E70C1A17CB94}" ShortID="147783646">
+							<ChildrenList>
+								<Event Name="Play_Torch_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}">
+									<ChildrenList>
+										<Action Name="" ID="{0DB78DF3-1904-447E-872E-6FD7A2149E32}" ShortID="773835181"/>
+										<Action Name="" ID="{F6B35D10-5CA3-46CA-BF3E-4F831A0B8657}" ShortID="1064814168">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64" Value="50">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{571E6797-F3C8-40F5-85D8-C37FBCD6C44F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="40"/>
+																	<Property Name="Min" Type="Real64" Value="-40"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList/>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Stop_Torch_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}">
+									<ChildrenList>
+										<Action Name="" ID="{D8CA8A4E-C2A2-4633-8BD4-EA47680323DA}" ShortID="920973030">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList/>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

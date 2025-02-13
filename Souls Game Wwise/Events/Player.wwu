@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Player" ID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player_Combat" ID="{1118B9A6-1ED9-42D4-B7CB-AF6B2AD83CE1}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Locomotion" ID="{476D4548-FAB2-4082-98CE-CF6F7D5B1438}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Interact" ID="{BA4E5808-9A6B-4BB1-97E3-3F18F3041EE7}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

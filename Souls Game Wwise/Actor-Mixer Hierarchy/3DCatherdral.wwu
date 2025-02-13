@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{47C83B25-B3F2-4672-862B-6FF3787C362C}" SchemaVersion="123" RootDocumentID="{51AD7ABA-5E77-436E-842E-A590062A15D3}" ParentDocumentID="{0A62F67E-5D0D-45D4-84DB-FFDB0E7799D0}">
+	<AudioObjects>
+		<WorkUnit Name="3DCatherdral" ID="{47C83B25-B3F2-4672-862B-6FF3787C362C}" OwnerID="{0A62F67E-5D0D-45D4-84DB-FFDB0E7799D0}" PersistMode="Nested"/>
+	</AudioObjects>
+</WwiseDocument>

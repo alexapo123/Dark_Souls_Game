@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="NPC" ID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="EnemyNormal" ID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}" PersistMode="Reference"/>
+				<WorkUnit Name="Boss" ID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

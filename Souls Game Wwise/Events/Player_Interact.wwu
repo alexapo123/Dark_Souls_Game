@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BA4E5808-9A6B-4BB1-97E3-3F18F3041EE7}" SchemaVersion="123" RootDocumentID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" ParentDocumentID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}">
+	<Events>
+		<WorkUnit Name="Player_Interact" ID="{BA4E5808-9A6B-4BB1-97E3-3F18F3041EE7}" OwnerID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Pickup" ID="{C22F2997-F82F-48FC-84CF-D4C1CF785027}" ShortID="301721653">
+					<ChildrenList>
+						<Event Name="Play_Pickup_Sword" ID="{AFB817A6-C0FE-4F5A-9599-9C3122FD8986}">
+							<ChildrenList>
+								<Action Name="" ID="{A2D02451-0FDA-4A77-8B47-8C7100E517C7}" ShortID="260066363"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

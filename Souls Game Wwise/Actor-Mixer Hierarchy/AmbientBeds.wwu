@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FCDBA6B4-A399-49AE-9E71-173CCCFBCF03}" SchemaVersion="123" RootDocumentID="{51AD7ABA-5E77-436E-842E-A590062A15D3}" ParentDocumentID="{B613F5AF-734D-433F-9F2C-B80E6092E64B}">
+	<AudioObjects>
+		<WorkUnit Name="AmbientBeds" ID="{FCDBA6B4-A399-49AE-9E71-173CCCFBCF03}" OwnerID="{B613F5AF-734D-433F-9F2C-B80E6092E64B}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="2DOutdoor" ID="{E42A4011-BC1C-4CB8-9013-DF14ACE17768}" PersistMode="Reference"/>
+				<WorkUnit Name="2DCathedral" ID="{96CC3D57-0C49-4297-ADFD-5F62BF930E92}" PersistMode="Reference"/>
+				<WorkUnit Name="2DBossArea" ID="{F569DAAF-8743-4347-836F-44CC0DA5C3FF}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

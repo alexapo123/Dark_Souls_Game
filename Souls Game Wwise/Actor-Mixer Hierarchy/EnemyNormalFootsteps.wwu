@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A2FB487E-F7A6-4366-9BFE-9BB90E1D91FC}" SchemaVersion="123" RootDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" ParentDocumentID="{E0A504EF-6BCB-440D-BE0B-C0BA96F90BE3}">
+	<AudioObjects>
+		<WorkUnit Name="EnemyNormalFootsteps" ID="{A2FB487E-F7A6-4366-9BFE-9BB90E1D91FC}" OwnerID="{E0A504EF-6BCB-440D-BE0B-C0BA96F90BE3}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchContainer Name="EnemyFootstepsSC" ID="{F1BF599B-999F-4D78-B489-D3EF2390811E}" ShortID="451033124">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Wood" ID="{E0D78141-56DE-4C22-9700-025D94D9BDAA}" WorkUnitID="{4E64AA49-C316-43E3-A26C-DF3E986CDB3D}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="GroundMaterialSwitch" ID="{D956C1D3-7FD7-4043-B222-5A516FB237DB}" WorkUnitID="{4E64AA49-C316-43E3-A26C-DF3E986CDB3D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Carpet" ID="{5F259C98-7605-4AC4-8481-521E955AC146}" ShortID="179256201">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Wood" ID="{8B1DAF65-1002-4657-97E1-84727CC1B1C3}" ShortID="837435344">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stone" ID="{69DAB1CC-D3DC-42CA-AF78-FC7A59CE8B8A}" ShortID="512998621">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+								</Reference>
+							</ReferenceList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Wood" ID="{8B1DAF65-1002-4657-97E1-84727CC1B1C3}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Carpet" ID="{5F259C98-7605-4AC4-8481-521E955AC146}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Stone" ID="{69DAB1CC-D3DC-42CA-AF78-FC7A59CE8B8A}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{2303D132-EA15-4BA3-96AC-F451D6F060DE}"/>
+								<ItemList>
+									<ItemRef Name="Stone" ID="{69DAB1CC-D3DC-42CA-AF78-FC7A59CE8B8A}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wood" ID="{E0D78141-56DE-4C22-9700-025D94D9BDAA}"/>
+								<ItemList>
+									<ItemRef Name="Wood" ID="{8B1DAF65-1002-4657-97E1-84727CC1B1C3}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Carpet" ID="{A7B4738B-7974-46EC-AB00-972607595146}"/>
+								<ItemList>
+									<ItemRef Name="Carpet" ID="{5F259C98-7605-4AC4-8481-521E955AC146}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{487886B1-336C-4E2A-95AE-6B5D2E23B41C}" SchemaVersion="123">
+	<GameParameters>
+		<WorkUnit Name="Souls Work Unit" ID="{487886B1-336C-4E2A-95AE-6B5D2E23B41C}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Distance" ID="{813ED888-9C42-4AFD-A315-820A3CC379DF}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="10000000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

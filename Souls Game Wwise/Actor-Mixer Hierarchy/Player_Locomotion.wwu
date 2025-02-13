@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1D60845-B949-456B-B4AA-55FE9400783F}" SchemaVersion="123" RootDocumentID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}" ParentDocumentID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}">
+	<AudioObjects>
+		<WorkUnit Name="Player_Locomotion" ID="{B1D60845-B949-456B-B4AA-55FE9400783F}" OwnerID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="PlayerFootsteps" ID="{CE38A06D-DA9E-4BFB-92B1-BE09996B1FF8}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerArmor" ID="{BA365384-46DE-4151-BB14-A0A3C2CDAC28}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerCloth" ID="{4EDF1F55-2F82-445A-B595-4A881013E706}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerDodge" ID="{2EEFABC9-5181-4905-9367-93FA9DB3FE6F}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

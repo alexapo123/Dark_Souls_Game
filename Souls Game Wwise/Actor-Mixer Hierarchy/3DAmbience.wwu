@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0A62F67E-5D0D-45D4-84DB-FFDB0E7799D0}" SchemaVersion="123" RootDocumentID="{51AD7ABA-5E77-436E-842E-A590062A15D3}" ParentDocumentID="{B613F5AF-734D-433F-9F2C-B80E6092E64B}">
+	<AudioObjects>
+		<WorkUnit Name="3DAmbience" ID="{0A62F67E-5D0D-45D4-84DB-FFDB0E7799D0}" OwnerID="{B613F5AF-734D-433F-9F2C-B80E6092E64B}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="3DOutdoor" ID="{4BA38364-69A1-4821-AAA7-57CABF116039}" PersistMode="Reference"/>
+				<WorkUnit Name="3DCatherdral" ID="{47C83B25-B3F2-4672-862B-6FF3787C362C}" PersistMode="Reference"/>
+				<WorkUnit Name="3DBossArea" ID="{F50B63F7-93D6-411D-8FCC-F67BA7AF1712}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

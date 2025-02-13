@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}" SchemaVersion="123" RootDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" ParentDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}">
+	<AudioObjects>
+		<WorkUnit Name="NPC_EnemyNormal" ID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}" OwnerID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="NPC_EnemyNormal_Combat" ID="{6E1A6069-5C56-4B57-87D5-99B2A072E92B}" PersistMode="Reference"/>
+				<WorkUnit Name="NPC_EnemyNormalLocomotion" ID="{E0A504EF-6BCB-440D-BE0B-C0BA96F90BE3}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

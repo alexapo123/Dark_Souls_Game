@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{750A97DD-2493-4D6D-8CD9-528FE4B813A4}" SchemaVersion="123" RootDocumentID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}" ParentDocumentID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}">
+	<AudioObjects>
+		<WorkUnit Name="Player_Combat" ID="{750A97DD-2493-4D6D-8CD9-528FE4B813A4}" OwnerID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="PlayerAttack" ID="{AFB529F5-9A5A-438B-9B0B-7900E0F93871}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerDamage" ID="{B1C0799A-AD66-4EBE-BD71-884FC7B19458}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerDie" ID="{073E567E-49B1-461B-A03F-7D4628874D88}" PersistMode="Reference"/>
+				<WorkUnit Name="PlayerHeal" ID="{E9A52036-CFC7-494F-845E-85E35CAE89D2}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E64AA49-C316-43E3-A26C-DF3E986CDB3D}" SchemaVersion="123" RootDocumentID="{CC200F8A-0EC6-46D6-9EA7-FE43EC16A6DC}" ParentDocumentID="{CC200F8A-0EC6-46D6-9EA7-FE43EC16A6DC}">
+	<Switches>
+		<WorkUnit Name="Materials" ID="{4E64AA49-C316-43E3-A26C-DF3E986CDB3D}" OwnerID="{CC200F8A-0EC6-46D6-9EA7-FE43EC16A6DC}" PersistMode="Nested">
+			<ChildrenList>
+				<SwitchGroup Name="GroundMaterialSwitch" ID="{D956C1D3-7FD7-4043-B222-5A516FB237DB}">
+					<ChildrenList>
+						<Switch Name="Stone" ID="{2303D132-EA15-4BA3-96AC-F451D6F060DE}"/>
+						<Switch Name="Carpet" ID="{A7B4738B-7974-46EC-AB00-972607595146}"/>
+						<Switch Name="Wood" ID="{E0D78141-56DE-4C22-9700-025D94D9BDAA}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

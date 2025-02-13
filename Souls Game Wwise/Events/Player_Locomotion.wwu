@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{476D4548-FAB2-4082-98CE-CF6F7D5B1438}" SchemaVersion="123" RootDocumentID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" ParentDocumentID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}">
+	<Events>
+		<WorkUnit Name="Player_Locomotion" ID="{476D4548-FAB2-4082-98CE-CF6F7D5B1438}" OwnerID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Foosteps_Player" ID="{0BE67119-A3A1-469D-AEB4-D503E8DB0D0D}">
+					<ChildrenList>
+						<Action Name="" ID="{4538F3BE-0267-4AE2-ADA1-60D72169086F}" ShortID="511689412"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Locomotion_Foley" ID="{7D632B81-939D-4953-9A9C-DC4DC7AB8D8D}">
+					<ChildrenList>
+						<Action Name="" ID="{13159599-C68A-4F05-8305-B874C8335D4D}" ShortID="823255608"/>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

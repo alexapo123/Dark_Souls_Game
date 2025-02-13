@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7ACE55B2-6416-441B-A52B-FE7E322E7FC9}" SchemaVersion="123" RootDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" ParentDocumentID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}">
+	<Events>
+		<WorkUnit Name="EnemyNormal_Locomotion" ID="{7ACE55B2-6416-441B-A52B-FE7E322E7FC9}" OwnerID="{93A53F54-2B92-4E46-BA3A-5ECCB9300DE3}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="EnemyNormal_Footsteps" ID="{B30A465E-E750-4E88-9541-AAC9E8216C58}" ShortID="325911089">
+					<ChildrenList>
+						<Event Name="Play_Footsteps_Skeleton" ID="{AA71F25A-9652-4C6A-9AA3-24B470E93933}">
+							<ChildrenList>
+								<Action Name="" ID="{75EDE959-5959-43EA-AC1D-A8CDAEA0A99C}" ShortID="126092076"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

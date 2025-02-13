@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6E1A6069-5C56-4B57-87D5-99B2A072E92B}" SchemaVersion="123" RootDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" ParentDocumentID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}">
+	<AudioObjects>
+		<WorkUnit Name="NPC_EnemyNormal_Combat" ID="{6E1A6069-5C56-4B57-87D5-99B2A072E92B}" OwnerID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="EnemyNormalAttack" ID="{B7A988AE-B26F-420F-B400-7500CA5EADBA}" PersistMode="Reference"/>
+				<WorkUnit Name="EnemyNormalDamage" ID="{36223013-F639-44F2-94F2-CD825D570113}" PersistMode="Reference"/>
+				<WorkUnit Name="EnemyNormalDie" ID="{1BAAA4D9-89C2-4D25-A14E-B046B7606D0B}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

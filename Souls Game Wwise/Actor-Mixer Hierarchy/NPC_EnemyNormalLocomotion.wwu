@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E0A504EF-6BCB-440D-BE0B-C0BA96F90BE3}" SchemaVersion="123" RootDocumentID="{CEFEC9C5-5A6F-44A1-9C14-32E2CB4BE31F}" ParentDocumentID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}">
+	<AudioObjects>
+		<WorkUnit Name="NPC_EnemyNormalLocomotion" ID="{E0A504EF-6BCB-440D-BE0B-C0BA96F90BE3}" OwnerID="{14459E1E-AEFD-490E-9B1D-513560CB2B2C}" PersistMode="Nested">
+			<ChildrenList>
+				<WorkUnit Name="EnemyNormalFootsteps" ID="{A2FB487E-F7A6-4366-9BFE-9BB90E1D91FC}" PersistMode="Reference"/>
+				<WorkUnit Name="EnemyNormalArmour" ID="{50A9385B-7C0A-4694-85D7-F6E767B3ACEA}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

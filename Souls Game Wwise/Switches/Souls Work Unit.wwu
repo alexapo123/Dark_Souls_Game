@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CC200F8A-0EC6-46D6-9EA7-FE43EC16A6DC}" SchemaVersion="123">
+	<Switches>
+		<WorkUnit Name="Souls Work Unit" ID="{CC200F8A-0EC6-46D6-9EA7-FE43EC16A6DC}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Materials" ID="{4E64AA49-C316-43E3-A26C-DF3E986CDB3D}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

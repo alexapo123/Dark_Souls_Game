@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{817A8589-952E-4521-81AF-2BDF1C9923B1}" SchemaVersion="123">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{817A8589-952E-4521-81AF-2BDF1C9923B1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{A6DB2405-C788-46D4-8CA9-16B21564E1D5}" WorkUnitID="{190EDD4C-CA0F-49AE-A5E2-466B41393C8E}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Backgrounds_MainMix" ID="{510E4394-7EC3-4796-B2EA-33471FC50063}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="AmbientBeds" ID="{7E64E162-9E46-46CD-AEEC-C86CE1EBDC6F}">
+									<ChildrenList>
+										<Bus Name="AB_Quad" ID="{3CF64AED-25DE-487F-B1CF-EF141FEB45E0}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>6304004</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="AB_Stereo" ID="{1C798032-8738-41D8-BDF2-115D15C93F67}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>12546</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="AB_Ambisonics" ID="{26E71AA8-806D-4031-8413-F644A721629E}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="RoomTones" ID="{8C1B1B3A-A16E-434E-83C8-D60498B6860F}">
+									<ChildrenList>
+										<Bus Name="RT_Stereo" ID="{540DECD0-B574-4741-95A6-B02F1AC01A4C}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>12546</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="RT_Quad" ID="{BB3B2B9E-8922-481F-AB4B-8C1EDB88A5D2}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>6304004</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="RT_Ambisonics" ID="{4F0795D7-50E8-412E-ADDC-9B4EA46D908F}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Environmental Aux Buses" ID="{9AF04CD5-7B2C-4977-88B7-3ACEABECAE83}">
+							<ChildrenList>
+								<Bus Name="Late Reverb" ID="{36B24C33-4526-4E9E-BD6C-F9346F04AA20}">
+									<ChildrenList>
+										<AuxBus Name="BossArea" ID="{B47362E2-DED7-4384-9626-9EDE8F9C2689}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{6AC0685B-F75E-4797-B2FB-036D929F2BF6}" ShortID="272415438">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{C092CE19-9176-4C47-A9BD-8CE92F6A5E11}">
+																			<Effect Name="Dark_Cathedral_Ambisonics (Custom)" ID="{47EB90AA-4DCE-4D15-9F5A-9A8A064DA28C}" ShortID="1018813941" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<Comment>Impulse response created by Pinguin ing.büro
+© 2010 Pinguin ing.büro.  All rights reserved.
+IR Pre-delay: 20ms 
+</Comment>
+																				<PropertyList>
+																					<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+																					<Property Name="ChannelConfigOverride" Type="int64" Value="8589935108"/>
+																					<Property Name="IRConvolutionSmooth" Type="Real32" Value="5"/>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="5.44695833333333"/>
+																					<Property Name="IRConvolutionThreshold" Type="Real32">
+																						<ValueList>
+																							<Value>-62</Value>
+																						</ValueList>
+																					</Property>
+																					<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-37"/>
+																					<Property Name="IRStretch" Type="Real32" Value="119"/>
+																					<Property Name="PreDelay" Type="Real32" Value="64"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="AK Amb St-Katharinen" ID="{B5EA6B6E-4A76-478E-95C4-B0CD20430479}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="AK_Factory_IR_Amb\Churches\AK Amb St-Katharinen.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="529687837"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>9043.22581</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>5.44697916666667</XPos>
+							<YPos>5820.64516</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>5.44697916666667</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="CathedralEntry" ID="{2954EE72-0C5C-48B8-BF5A-99D7E796DE9F}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{75B2CDDC-4D83-4FAD-B599-1F6BC10C7A62}" ShortID="759486766">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{C4D2E87A-3399-4CD4-AF29-E2698BB3F191}">
+																			<Effect Name="Mountain_Pasture_Echoing_90m_Quad_01 (Custom)" ID="{BF9E5CD5-20F4-4BD0-9A43-66F8E5E0A963}" ShortID="285134726" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<Comment>Impulse response created by BOOM Library.
+© 2023 BOOM Library. All rights reserved.</Comment>
+																				<PropertyList>
+																					<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+																					<Property Name="ChannelConfigOverride" Type="int64" Value="6304004"/>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="7.27048506734716"/>
+																					<Property Name="IRConvolutionThreshold" Type="Real32">
+																						<ValueList>
+																							<Value>-55</Value>
+																						</ValueList>
+																					</Property>
+																					<Property Name="IRLevel" Type="Real32" Value="-25.8"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="Mountain 02 90m Quad" ID="{B2AC16B5-0D97-4776-A82B-0E8807BB7F52}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="BOOM Library IR - F&amp;S\Mountain 02 90m Quad.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="17012806"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>15.61353125</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>15.61353125</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Cathedral" ID="{6BE6CB5C-5FC8-494C-9F27-9F3FC38E2F5B}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{E871E3BE-CED1-496E-9B6C-37750B2E7C95}" ShortID="114176549">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{043930FB-4DC4-458D-BC4E-310A6284D72E}">
+																			<Effect Name="Colossal_Cathedral_Ambisonics (Custom)" ID="{77E80289-9394-4629-8626-E83D7116CFE2}" ShortID="559993619" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<Comment>Impulse response created by Pinguin ing.büro
+© 2010 Pinguin ing.büro.  All rights reserved.
+IR Pre-delay: 20ms </Comment>
+																				<PropertyList>
+																					<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+																					<Property Name="IRConvolutionSmooth" Type="Real32" Value="8"/>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="5.44695833333333"/>
+																					<Property Name="IRConvolutionThreshold" Type="Real32">
+																						<ValueList>
+																							<Value>-67</Value>
+																						</ValueList>
+																					</Property>
+																					<Property Name="IRLPFAutomate" Type="bool" Value="True"/>
+																					<Property Name="IRLevel" Type="Real32" Value="-37"/>
+																					<Property Name="PreDelay" Type="Real32" Value="49"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="AK Amb St-Katharinen" ID="{0E5DFBB6-248D-4645-A0CD-85033A2F2003}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="AK_Factory_IR_Amb\Churches\AK Amb St-Katharinen.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="841364558"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>15989.67742</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>5.44697916666667</XPos>
+							<YPos>13411.60915</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>5.44697916666667</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Outdoors" ID="{12B10EE5-0017-4F55-996E-B7C3BEE9D23A}">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>516</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+											</PropertyList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{10A543F6-E587-4589-BD36-44FED9C60E8E}" ShortID="924173827">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{C4D2E87A-3399-4CD4-AF29-E2698BB3F191}">
+																			<Effect Name="Mountain_Pasture_Echoing_90m_Quad_01 (Custom)" ID="{7FA3C039-2C46-47FE-9440-474A01D0D1C3}" ShortID="602977308" PluginName="Wwise Convolution Reverb" CompanyID="0" PluginID="127" PluginType="3">
+																				<Comment>Impulse response created by BOOM Library.
+© 2023 BOOM Library. All rights reserved.</Comment>
+																				<PropertyList>
+																					<Property Name="CenterLevel" Type="Real32" Value="-12"/>
+																					<Property Name="ChannelConfigOverride" Type="int64" Value="6304004"/>
+																					<Property Name="IRConvolutionStop" Type="Real64" Value="8.28143313389392"/>
+																					<Property Name="IRConvolutionThreshold" Type="Real32">
+																						<ValueList>
+																							<Value>-55</Value>
+																						</ValueList>
+																					</Property>
+																					<Property Name="IRLevel" Type="Real32" Value="-25.8"/>
+																				</PropertyList>
+																				<ChildrenList>
+																					<PluginMediaSource Name="Mountain 02 90m Quad" ID="{D39DA297-418A-47F4-8589-6A4322524455}">
+																						<ParentPluginID>8323075</ParentPluginID>
+																						<PropertyList>
+																							<Property Name="DataFileName" Type="string" Value="BOOM Library IR - F&amp;S\Mountain 02 90m Quad.wav"/>
+																						</PropertyList>
+																						<MediaIDList>
+																							<MediaID ID="17012808"/>
+																						</MediaIDList>
+																					</PluginMediaSource>
+																				</ChildrenList>
+																				<PluginData>
+	<ConvolutionData>
+		<CurveList Version="1">
+			<CurveInfo Name="IRGraphicEQ">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="19"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>20000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>15.61353125</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="IRLevel">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>15.61353125</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ConvolutionData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Reflect" ID="{C9EDD4E2-A971-4F40-BECE-13597F2DD2FD}">
+									<ChildrenList>
+										<AuxBus Name="Reflect_NotPlayer" ID="{725E4167-38BD-48C2-B212-4DB76C9CA3EB}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_ReflectThirdPerson" ID="{4882F529-8149-4A43-AB6A-7AD747AE7A78}" WorkUnitID="{FACDB58B-4C90-4807-8FF5-1E2C7FD8B4F5}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{A4DCE911-8579-4A1F-9185-7F25B0C6355B}" ShortID="1059128196">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{C69F5865-C206-4B45-BC40-315F3F39151A}">
+																			<Effect Name="Reflect_Physically_Based (Custom)" ID="{B9900E2B-7CB7-499A-9C62-3CAA7B969AB9}" ShortID="832453593" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+																				<PropertyList>
+																					<Property Name="CurveUsageMask" Type="Uint32" Value="368"/>
+																					<Property Name="DecorrStrength" Type="Real32" Value="33"/>
+																					<Property Name="FusingTime" Type="Real32" Value="10"/>
+																					<Property Name="MaxDistance" Type="Real32" Value="10000"/>
+																					<Property Name="ParamFilterCutoff" Type="Real32" Value="1"/>
+																					<Property Name="PitchThreshold" Type="Real32" Value="100"/>
+																					<Property Name="SpeedOfSound" Type="Real32" Value="34500"/>
+																				</PropertyList>
+																				<PluginData>
+	<ReflectData>
+		<CurveList Version="4">
+			<CurveInfo Name="Diffraction Attenuation">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>17</XPos>
+							<YPos>-8.5</YPos>
+							<Flags>0</Flags>
+							<SegmentShape>Log2</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>33</XPos>
+							<YPos>-12.7</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-17.2</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HSF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Log2</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>-16</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>-20</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-22.2</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction LPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1500</XPos>
+							<YPos>-6</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>3000</XPos>
+							<YPos>-12</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>6000</XPos>
+							<YPos>-18</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance HSF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance High-pass Filter (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Low-pass Filter (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Spread (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ReflectData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+										<AuxBus Name="Reflect_Player" ID="{E18808F4-712D-44FF-B29B-5EA3DB29F24B}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_ReflectThirdPerson" ID="{4882F529-8149-4A43-AB6A-7AD747AE7A78}" WorkUnitID="{FACDB58B-4C90-4807-8FF5-1E2C7FD8B4F5}"/>
+												</Reference>
+											</ReferenceList>
+											<ObjectLists>
+												<ObjectList Name="Effects">
+													<Reference>
+														<Local>
+															<EffectSlot Name="" ID="{CE9258F3-2313-441E-837F-8A8647BEC080}" ShortID="468849746">
+																<ReferenceList>
+																	<Reference Name="Effect">
+																		<Custom CreatedFrom="{C69F5865-C206-4B45-BC40-315F3F39151A}">
+																			<Effect Name="Reflect_Physically_Based (Custom)" ID="{3EFCD59D-9B9D-441A-8F81-BBE3136BDB5C}" ShortID="746426747" PluginName="Wwise Reflect" CompanyID="0" PluginID="171" PluginType="3">
+																				<PropertyList>
+																					<Property Name="CurveUsageMask" Type="Uint32" Value="368"/>
+																					<Property Name="DecorrStrength" Type="Real32" Value="60"/>
+																					<Property Name="FusingTime" Type="Real32" Value="10"/>
+																					<Property Name="MaxDistance" Type="Real32" Value="10000"/>
+																					<Property Name="SpeedOfSound" Type="Real32" Value="34500"/>
+																					<Property Name="StereoDecorrelation" Type="bool" Value="True"/>
+																				</PropertyList>
+																				<PluginData>
+	<ReflectData>
+		<CurveList Version="4">
+			<CurveInfo Name="Diffraction Attenuation">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>17</XPos>
+							<YPos>-8.5</YPos>
+							<Flags>0</Flags>
+							<SegmentShape>Log2</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>33</XPos>
+							<YPos>-12.7</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-17.2</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction HSF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+							<SegmentShape>Log2</SegmentShape>
+						</Point>
+						<Point>
+							<XPos>20</XPos>
+							<YPos>-16</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>50</XPos>
+							<YPos>-20</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>-22.2</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Diffraction LPF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>100</XPos>
+							<YPos>20000</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Attenuation (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>1500</XPos>
+							<YPos>-6</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>3000</XPos>
+							<YPos>-12</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>6000</XPos>
+							<YPos>-18</YPos>
+							<Flags>0</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>-200</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance HSF">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="3"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance High-pass Filter (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Low-pass Filter (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="5"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>20000</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>20</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+			<CurveInfo Name="Distance Spread (Image Source vs. Listener)">
+				<Curve Name="">
+					<PropertyList>
+						<Property Name="Flags" Type="int32" Value="1"/>
+					</PropertyList>
+					<PointList>
+						<Point>
+							<XPos>0</XPos>
+							<YPos>0</YPos>
+							<Flags>5</Flags>
+						</Point>
+						<Point>
+							<XPos>10000</XPos>
+							<YPos>0</YPos>
+							<Flags>37</Flags>
+						</Point>
+					</PointList>
+				</Curve>
+			</CurveInfo>
+		</CurveList>
+	</ReflectData>
+</PluginData>
+																			</Effect>
+																		</Custom>
+																	</Reference>
+																</ReferenceList>
+															</EffectSlot>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Positional_AudioObjects" ID="{F4EE287A-582E-4DF4-B079-6737B36DC0F2}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>768</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="AO_Ambience" ID="{AD792DCF-6DF3-433A-9FD9-299C95B51973}">
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{B5F1EF99-662C-447A-A0F7-1808D961444B}" ShortID="85708443">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="3D Audio Bed Mixer (Custom)" ID="{4C2337CC-B82C-4E4A-A579-0219735E3DE7}" ShortID="577293212" PluginName="Wwise 3D Audio Bed Mixer" CompanyID="0" PluginID="190" PluginType="3">
+																		<PropertyList>
+																			<Property Name="SystemAudioObjectLimit" Type="Uint16">
+																				<ValueList>
+																					<Value>20</Value>
+																				</ValueList>
+																			</Property>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="AO_MainCharacter" ID="{287F3AF2-9B30-4EA0-A731-B7A0040BACEB}">
+									<ChildrenList>
+										<Bus Name="PlayerCombat" ID="{2ABD8199-9798-42B0-85E9-8253AC48F1EB}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="PlayerAttack" ID="{43EBF652-E296-4391-A47B-3995CA4BD0C4}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="PlayerDamage" ID="{20ACC988-1B40-4F40-A4C2-69F3177F264A}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="PlayerDie" ID="{1553F7B2-FFBA-4DEB-B685-373C797D3820}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="PlayerHeal" ID="{3BEC42C8-DABA-4374-8476-8BBFCAAC27D0}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="PlayerLocomotion" ID="{4F02FE6D-7E52-4397-BB9D-AC94BD0F09C7}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="PlayerFootsteps" ID="{E7A07E95-CE25-4E6F-8D09-B3F91E5733D0}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="PlayerArmor" ID="{81EACBB2-618D-4648-B485-9F2ADB6254AF}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="PlayerCloth" ID="{E92EA28C-BA52-4190-BFFC-CE90972E583E}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{9F781574-5686-45F4-A00F-E58F5C7316C7}" ShortID="471154530">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="3D Audio Bed Mixer (Custom)" ID="{22087B97-A912-4142-BBCB-0F93C461F923}" ShortID="399532915" PluginName="Wwise 3D Audio Bed Mixer" CompanyID="0" PluginID="190" PluginType="3">
+																		<PropertyList>
+																			<Property Name="SystemAudioObjectLimit" Type="Uint16">
+																				<ValueList>
+																					<Value>20</Value>
+																				</ValueList>
+																			</Property>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="AO_EnemyNormal" ID="{642A62C2-FF17-4027-8C97-7534629AA28F}">
+									<ChildrenList>
+										<Bus Name="EnemyNormalLocomotion" ID="{2D579C39-B702-4C18-AFA9-215049211698}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="EnemyNormalFootsteps" ID="{6B1EFB5B-890A-420B-9ED2-205773C4A2A4}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="EnemyNormalArmor" ID="{21B07E12-CDC9-4834-88EB-770953E1ACF4}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="EnemyNormalCombat" ID="{6BECC9A9-588B-41E1-ACC1-FEA349A53EF2}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="EnemyNormalAttack" ID="{1491DDFF-4AB4-4F1D-B973-B26529DC4A49}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="EnemyNormalDamage" ID="{F0187366-ACCD-418E-9475-FF8FA9BBC04A}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="EnemyNormalDie" ID="{237A105B-ECD5-4D67-88EE-E64EAF67A00B}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{A3909CDD-D400-4C48-AB3E-5635F7B644D9}" ShortID="828094647">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="3D Audio Bed Mixer (Custom)" ID="{8D090245-89F7-448A-AEF1-DA37285D8105}" ShortID="328572188" PluginName="Wwise 3D Audio Bed Mixer" CompanyID="0" PluginID="190" PluginType="3">
+																		<PropertyList>
+																			<Property Name="SystemAudioObjectLimit" Type="Uint16">
+																				<ValueList>
+																					<Value>20</Value>
+																				</ValueList>
+																			</Property>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+								<Bus Name="AO_EnemyBoss" ID="{AC92BEF8-341F-4C64-BEA7-B12338967EDE}">
+									<ChildrenList>
+										<Bus Name="EnemyBossLocomotion" ID="{02FA68A8-A272-4E7A-A45F-265B0B3E28C9}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="EnemyBossFootsteps" ID="{9947BC43-E810-4225-AF97-AF9ABEE69DC0}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="EnemyBossCombat" ID="{DA1EC23A-94DD-4CE9-B63C-0DA9C6D5D27B}">
+											<PropertyList>
+												<Property Name="BusChannelConfig" Type="int32">
+													<ValueList>
+														<Value>768</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ChildrenList>
+												<Bus Name="EnemyBossAttack" ID="{2198EF63-F101-4414-8D84-5F4187EFDA21}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="EnemyBossDamage" ID="{AE07533F-1BC1-4E98-B37B-973D75D91C4E}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+												<Bus Name="EnemyBossDie" ID="{5A6A69F3-8ACF-4887-8389-AEBBCE866C3E}">
+													<PropertyList>
+														<Property Name="BusChannelConfig" Type="int32">
+															<ValueList>
+																<Value>768</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Effects">
+											<Reference>
+												<Local>
+													<EffectSlot Name="" ID="{20E18240-9AFF-49A2-9A61-AE9E21FDC4D8}" ShortID="43125351">
+														<ReferenceList>
+															<Reference Name="Effect">
+																<Custom>
+																	<Effect Name="3D Audio Bed Mixer (Custom)" ID="{E4297869-7D77-4865-90B5-62E76A23DAD3}" ShortID="357519495" PluginName="Wwise 3D Audio Bed Mixer" CompanyID="0" PluginID="190" PluginType="3">
+																		<PropertyList>
+																			<Property Name="SystemAudioObjectLimit" Type="Uint16">
+																				<ValueList>
+																					<Value>20</Value>
+																				</ValueList>
+																			</Property>
+																		</PropertyList>
+																	</Effect>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</EffectSlot>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="Passthrough_Mix" ID="{2BB77D47-35A3-42B5-BC7D-8AF6E5A71923}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Combat_Riser" ID="{4738D9B1-C13E-4CFC-86D6-BC4E8F6A1A5D}"/>
+								<Bus Name="Combat_Impact" ID="{5BFE5C5F-A8B4-4AEE-8219-522D78EFB2AE}"/>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

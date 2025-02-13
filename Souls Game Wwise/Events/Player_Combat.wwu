@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1118B9A6-1ED9-42D4-B7CB-AF6B2AD83CE1}" SchemaVersion="123" RootDocumentID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" ParentDocumentID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}">
+	<Events>
+		<WorkUnit Name="Player_Combat" ID="{1118B9A6-1ED9-42D4-B7CB-AF6B2AD83CE1}" OwnerID="{A422E17F-2BE8-4899-8F42-D23AD3F04531}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_Dodge" ID="{59D1681A-947A-4C7F-93E2-E8888807EF95}">
+					<ChildrenList>
+						<Action Name="" ID="{DC790066-8DC0-405C-9CB9-E344700E10AC}" ShortID="731575727"/>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Player_Attack" ID="{F35DEA4E-D227-4FE0-BF2D-3D116BA07B6F}" ShortID="254678406">
+					<ChildrenList>
+						<Event Name="Play_Whoosh_Combo_Player" ID="{B2B93995-ADD0-4839-846C-F1F63A430AEB}">
+							<ChildrenList>
+								<Action Name="" ID="{199B8BD4-7C5E-436E-AE9C-040EA6D39951}" ShortID="1068246999"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Whoosh_Heavy_Player" ID="{89D8D683-0690-4A6F-AFB7-522D4D95560A}">
+							<ChildrenList>
+								<Action Name="" ID="{7274C139-33E3-4E06-8AEF-ECD6808E874B}" ShortID="715225012"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Player_Hit" ID="{7FF596BA-DF6B-4EC5-9E6F-4686D21BAE25}" ShortID="150581274">
+					<ChildrenList>
+						<Event Name="Play_Hit_Player_Normal_Grux" ID="{283AF4A1-03F3-4041-A7EA-BE0D90C4BE60}">
+							<ChildrenList>
+								<Action Name="" ID="{C2CD7818-D0D5-4A72-8A1E-AB2BDD4D32B5}" ShortID="735487754"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hit_Player_Heavy_Grux" ID="{49BC7D99-77A4-480E-B758-DC8CA17E3941}">
+							<ChildrenList>
+								<Action Name="" ID="{B7175A76-D285-482E-A52D-6DADA3552A04}" ShortID="707167949"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Hit_Player_Normal_Skeleton" ID="{C0404E89-D24D-4A93-8B76-0C62B6E3F5DA}">
+							<ChildrenList>
+								<Action Name="" ID="{67224B40-4560-487F-B830-1250FD368B88}" ShortID="34499967"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

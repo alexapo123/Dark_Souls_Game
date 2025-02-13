@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}" SchemaVersion="123">
+	<AudioObjects>
+		<WorkUnit Name="Player" ID="{B3D6BB8A-A9E8-4240-B1C1-EF8C4D93F334}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player_Locomotion" ID="{B1D60845-B949-456B-B4AA-55FE9400783F}" PersistMode="Reference"/>
+				<WorkUnit Name="Player_Combat" ID="{750A97DD-2493-4D6D-8CD9-528FE4B813A4}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

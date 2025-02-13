@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1E04887F-FDDE-426C-952C-3E976792BF5F}" SchemaVersion="123" RootDocumentID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" ParentDocumentID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}">
+	<Events>
+		<WorkUnit Name="AmbientBeds" ID="{1E04887F-FDDE-426C-952C-3E976792BF5F}" OwnerID="{56F9FD1D-D121-4D9D-803B-82D8A9F7697A}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Amb_Outside" ID="{AA443433-F27B-4088-A1F3-0BC137089939}" ShortID="492904145">
+					<ChildrenList>
+						<Event Name="Play_AB_Outside" ID="{D4767505-3D2D-46A4-BE28-181F910DFB75}">
+							<ChildrenList>
+								<Action Name="" ID="{5F64A6F0-7FC0-4FAA-B639-7C5D5631A90D}" ShortID="852066287"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stop_AB_Outside" ID="{9C56B2EA-1CE9-4B9F-98F6-B4CE4C7D3ADC}">
+							<ChildrenList>
+								<Action Name="" ID="{963E2DFE-6105-4013-A5E9-DBDD00E83AF9}" ShortID="446319208">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Amb_Cathedral" ID="{E119DB31-A79B-4962-A54B-8FB7E4FBC3C1}" ShortID="1022209712">
+					<ChildrenList>
+						<Event Name="Play_AB_Cathedral" ID="{CF8D6B33-DF92-4F5C-B210-7D9F85BB5EC9}">
+							<ChildrenList>
+								<Action Name="" ID="{919B00DB-203E-4F55-8C81-E95600868A81}" ShortID="881007864"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stop_AB_Cathedral" ID="{1124FB1C-F6D6-45A9-B528-7088CE76D583}">
+							<ChildrenList>
+								<Action Name="" ID="{1B2F238D-8EC0-44AC-9BC7-115A91B6542B}" ShortID="945378678">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Amb_Boss_Area" ID="{B18EFC9D-FB0A-4999-B367-8B1E048E8D73}" ShortID="327592476">
+					<ChildrenList>
+						<Event Name="Play_AB_Boss_Area" ID="{0E0A94D9-0858-41DF-8736-83EACD768A6D}">
+							<ChildrenList>
+								<Action Name="" ID="{7BC5F96A-2DCE-43AB-95C9-4FD6D0646C71}" ShortID="255992542"/>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stop_AB_Boss_Area" ID="{CB57C510-B588-4B2D-B5C9-9A859C27BF72}">
+							<ChildrenList>
+								<Action Name="" ID="{AB1686C1-E24E-4618-9DFA-D69558C5B599}" ShortID="1055611999">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList/>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

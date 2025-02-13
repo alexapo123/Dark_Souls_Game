@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F63CF153-3A39-4206-88AE-A8F826F2542A}" SchemaVersion="123" RootDocumentID="{F6E8B347-2BFF-43DF-8E2B-8281B5FEA1AD}" ParentDocumentID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}">
+	<Events>
+		<WorkUnit Name="Boss_Locomotion" ID="{F63CF153-3A39-4206-88AE-A8F826F2542A}" OwnerID="{D177BE78-A6CF-400C-A38A-1FB23CA9652D}" PersistMode="Nested">
+			<ChildrenList>
+				<Folder Name="Boss_Footsteps" ID="{52EF8609-3AAF-421D-831A-434580F071C4}" ShortID="837255909">
+					<ChildrenList>
+						<Event Name="Play_Footsteps_Grux" ID="{CE681014-24B2-480F-B6DB-AD050B7D6282}">
+							<ChildrenList>
+								<Action Name="" ID="{834353CE-094A-41D8-8E73-992A9DB2D223}" ShortID="746297868"/>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
