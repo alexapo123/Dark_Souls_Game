@@ -68,6 +68,18 @@
 												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DBFF7B2E-9DD9-4916-9A6A-77335540042D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="30"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
@@ -87,6 +99,84 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Torch_Ground_Crackle_L_lp1" ID="{B16FFC54-1548-4343-B7FF-1100510AD01C}" ShortID="805227132">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{6D5C98C0-9A5C-41B5-9F58-D36139981BB5}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{2FF15DB5-16E2-4BEE-A4A0-30BA70BAFADC}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.359397745411833"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.318818777578397"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.44097407166728"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.90976703541186"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="364249683"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{2FF15DB5-16E2-4BEE-A4A0-30BA70BAFADC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_02" ID="{EE7D5C97-A1FE-4EDE-BC07-4CDD32136B46}" ShortID="87613270">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E83D4E1E-C027-4975-8A44-D2A20FA26B29}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{FA09874E-ACC3-4E27-B14A-371F79582E79}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.48187622660184"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.11986942776654"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="772579153"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{FA09874E-ACC3-4E27-B14A-371F79582E79}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{489117CC-BD77-4927-83C0-38FAD3A1B73E}">
 													<PropertyList>
@@ -242,6 +332,77 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
+								<Sound Name="Torch_Ground_ML_lp" ID="{D00DAEC9-59BB-4F9B-9FAE-8EECAF302213}" ShortID="230144509">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Torch_Ground_ML_lp" ID="{B66A9990-70A9-4212-8DD7-1F0B6EA78482}">
+											<Language>SFX</Language>
+											<AudioFile>Torch_Ground_ML_lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="183302794"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Metadata">
+											<Reference PluginName="Wwise System Output Settings" CompanyID="0" PluginID="900" PluginType="9">
+												<ObjectRef Name="MixBehaviour_MainMix" ID="{829EC8B2-EDFF-4741-972C-4A174D68FA5A}" WorkUnitID="{464140B3-C3B8-4C09-BCB8-9A64ED4DA21C}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Torch_Ground_ML_lp" ID="{B66A9990-70A9-4212-8DD7-1F0B6EA78482}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Torch_Ground_Rumble_L_lp" ID="{7B305DC9-5862-41FD-AE70-2F977E3D82DD}" ShortID="895461004">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Torch_Ground_Rumble_L_lp" ID="{7AE6FF82-3F98-49FC-8825-D7D496CF11AD}">
+											<Language>SFX</Language>
+											<AudioFile>Torch_Ground_Rumble_L_lp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="481012466"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Metadata">
+											<Reference PluginName="Wwise System Output Settings" CompanyID="0" PluginID="900" PluginType="9">
+												<ObjectRef Name="MixBehaviour_Passthrough" ID="{591247FC-018F-4B03-858C-6495126437DD}" WorkUnitID="{464140B3-C3B8-4C09-BCB8-9A64ED4DA21C}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Torch_Ground_Rumble_L_lp" ID="{7AE6FF82-3F98-49FC-8825-D7D496CF11AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="CeilingTorch" ID="{BBFE3FBE-02F0-4584-8628-00CA08A6FB7E}" ShortID="600485077">

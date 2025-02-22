@@ -9,7 +9,13 @@
 							<ChildrenList>
 								<Event Name="Play_Torch_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}">
 									<ChildrenList>
-										<Action Name="" ID="{0DB78DF3-1904-447E-872E-6FD7A2149E32}" ShortID="773835181"/>
+										<Action Name="" ID="{0DB78DF3-1904-447E-872E-6FD7A2149E32}" ShortID="773835181">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ground_ML_lp" ID="{D00DAEC9-59BB-4F9B-9FAE-8EECAF302213}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{F6B35D10-5CA3-46CA-BF3E-4F831A0B8657}" ShortID="1064814168">
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="36"/>
@@ -27,7 +33,41 @@
 													</ModifierList>
 												</Property>
 											</PropertyList>
-											<ReferenceList/>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ground_ML_lp" ID="{D00DAEC9-59BB-4F9B-9FAE-8EECAF302213}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{91326BCF-52E5-4CD7-A023-16E4BFB5D81E}" ShortID="212955347">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ground_Rumble_L_lp" ID="{7B305DC9-5862-41FD-AE70-2F977E3D82DD}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{D500DAC3-203B-48FD-A317-85232907860C}" ShortID="809506234">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64" Value="50">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D7A0250D-310D-4319-B3D2-891833119DF4}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="40"/>
+																	<Property Name="Min" Type="Real64" Value="-40"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ground_Rumble_L_lp" ID="{7B305DC9-5862-41FD-AE70-2F977E3D82DD}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
@@ -37,7 +77,21 @@
 											<PropertyList>
 												<Property Name="ActionType" Type="int16" Value="2"/>
 											</PropertyList>
-											<ReferenceList/>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ground_ML_lp" ID="{D00DAEC9-59BB-4F9B-9FAE-8EECAF302213}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B6C914F6-1218-4E89-984A-0715B979C80B}" ShortID="272565001">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ground_Rumble_L_lp" ID="{7B305DC9-5862-41FD-AE70-2F977E3D82DD}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
