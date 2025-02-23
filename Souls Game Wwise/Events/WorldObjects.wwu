@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Folder Name="Torches" ID="{C530EA27-2E3F-4620-AE48-E70C1A17CB94}" ShortID="147783646">
 							<ChildrenList>
-								<Event Name="Play_Torch_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}">
+								<Event Name="Play_Torch_Ground_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}">
 									<ChildrenList>
 										<Action Name="" ID="{0DB78DF3-1904-447E-872E-6FD7A2149E32}" ShortID="773835181">
 											<ReferenceList>
@@ -78,7 +78,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Stop_Torch_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}">
+								<Event Name="Play_Stop_Torch_Ground_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}">
 									<ChildrenList>
 										<Action Name="" ID="{D8CA8A4E-C2A2-4633-8BD4-EA47680323DA}" ShortID="920973030">
 											<PropertyList>
@@ -107,6 +107,111 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="GroundTorch_Crackle" ID="{936578D6-F3DC-440B-AA25-93AFFCD4F573}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Torch_Ceiling_Loop" ID="{FB96ED55-7DC5-4047-BC9D-290037BBFC6B}">
+									<ChildrenList>
+										<Action Name="" ID="{F03B9DDC-4DB7-4E77-B39F-EAB26CB87C20}" ShortID="201436483">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ceiling_ML_lp" ID="{CCC0F6C6-3A8E-42CE-838E-02AE32FE4516}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{9016985A-25A0-4F2B-9219-B1661723C873}" ShortID="431282808">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64" Value="50">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EC2F0B2E-267E-4AD9-9FBB-F21FA8478F48}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="40"/>
+																	<Property Name="Min" Type="Real64" Value="-40"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ceiling_ML_lp" ID="{CCC0F6C6-3A8E-42CE-838E-02AE32FE4516}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{744D4DBA-576C-4D49-AC65-B3E6AAFFC40E}" ShortID="251124577">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ceiling_Rumble_L_lp" ID="{DDCEBAE0-1AA3-4CDE-BA35-CE67D57CD7D8}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5F841CB6-9477-414B-88DC-76F42B732166}" ShortID="258013246">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="36"/>
+												<Property Name="SeekPercent" Type="Real64" Value="50">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C0BD6B08-857C-4700-A5E4-C5C65C429330}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="40"/>
+																	<Property Name="Min" Type="Real64" Value="-40"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ceiling_Rumble_L_lp" ID="{DDCEBAE0-1AA3-4CDE-BA35-CE67D57CD7D8}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{6D111F38-EB8A-4353-B19B-2FB452E6BE52}" ShortID="419541192">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CeilingTorch_Crackle" ID="{DF9D5343-4DE1-4814-A348-0269E71C21F8}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Stop_Torch_Ceiling_Loop" ID="{C905B747-A91C-4F0B-8E14-03FC27F12E5B}">
+									<ChildrenList>
+										<Action Name="" ID="{7A571531-FDA4-4E92-9EC7-E8F8FD94525A}" ShortID="415454626">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ceiling_ML_lp" ID="{CCC0F6C6-3A8E-42CE-838E-02AE32FE4516}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{861E3708-E207-4784-8E7A-28B6F324CC2B}" ShortID="849795594">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Torch_Ceiling_Rumble_L_lp" ID="{DDCEBAE0-1AA3-4CDE-BA35-CE67D57CD7D8}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B918F94B-371C-4F7B-A6FD-A41300A0FC6C}" ShortID="33237235">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CeilingTorch_Crackle" ID="{DF9D5343-4DE1-4814-A348-0269E71C21F8}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
