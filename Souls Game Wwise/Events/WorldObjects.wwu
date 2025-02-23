@@ -69,6 +69,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{28A605FB-1CDE-43F3-8CB2-201C64D358EF}" ShortID="660332269">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GroundTorch_Crackle" ID="{936578D6-F3DC-440B-AA25-93AFFCD4F573}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_Stop_Torch_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}">
@@ -90,6 +97,16 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Torch_Ground_Rumble_L_lp" ID="{7B305DC9-5862-41FD-AE70-2F977E3D82DD}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{8B494453-DBF4-4B24-BF75-FC53416D11A7}" ShortID="1055445955">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="GroundTorch_Crackle" ID="{936578D6-F3DC-440B-AA25-93AFFCD4F573}" WorkUnitID="{41812B38-3C20-4EE0-912F-EAEC2853118C}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

@@ -1,0 +1,79 @@
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
+	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
+	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
+	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
+	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
+	2058049674	Wood			\Factory Acoustic Textures\Textures\Wood	
+	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
+	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
+	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
+	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
+	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	210760768	EnemyBossAttack			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss\EnemyBossCombat\EnemyBossAttack	
+	210821000	RT_Ambisonics			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\RoomTones\RT_Ambisonics	
+	243379636	Reflect			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Reflect	
+	287193501	EnemyNormalDamage			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalCombat\EnemyNormalDamage	
+	296338651	EnemyNormalArmor			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalLocomotion\EnemyNormalArmor	
+	337406793	PlayerDamage			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerCombat\PlayerDamage	
+	357173457	EnemyNormalLocomotion			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalLocomotion	
+	419548770	Backgrounds_MainMix			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix	
+	454120183	AO_EnemyBoss			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss	
+	459350831	EnemyBossLocomotion			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss\EnemyBossLocomotion	
+	765206498	PlayerCloth			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerLocomotion\PlayerCloth	
+	784488311	Combat_Riser			\Default Work Unit\Master Audio Bus\Passthrough_Mix\Combat_Riser	
+	864463375	Environmental Aux Buses			\Default Work Unit\Master Audio Bus\Environmental Aux Buses	
+	1079930671	AB_Stereo			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\AmbientBeds\AB_Stereo	
+	1124514543	PlayerArmor			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerLocomotion\PlayerArmor	
+	1149919015	EnemyBossDamage			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss\EnemyBossCombat\EnemyBossDamage	
+	1182634443	AmbientBeds			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\AmbientBeds	
+	1221146858	AB_Quad			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\AmbientBeds\AB_Quad	
+	1430405010	EnemyNormalCombat			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalCombat	
+	1634810678	PlayerCombat			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerCombat	
+	1636891160	AO_MainCharacter			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter	
+	1681012287	PlayerFootsteps			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerLocomotion\PlayerFootsteps	
+	1897091924	EnemyBossCombat			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss\EnemyBossCombat	
+	2115723104	Positional_AudioObjects			\Default Work Unit\Master Audio Bus\Positional_AudioObjects	
+	2163436155	EnemyNormalFootsteps			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalLocomotion\EnemyNormalFootsteps	
+	2169369406	PlayerAttack			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerCombat\PlayerAttack	
+	2172321922	EnemyNormalAttack			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalCombat\EnemyNormalAttack	
+	2343802269	PlayerLocomotion			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerLocomotion	
+	2378352478	Combat_Impact			\Default Work Unit\Master Audio Bus\Passthrough_Mix\Combat_Impact	
+	2410724459	RoomTones			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\RoomTones	
+	2454316741	AB_Ambisonics			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\AmbientBeds\AB_Ambisonics	
+	2738181723	Late Reverb			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Late Reverb	
+	2965100022	Passthrough_Mix			\Default Work Unit\Master Audio Bus\Passthrough_Mix	
+	3026274430	EnemyBossDie			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss\EnemyBossCombat\EnemyBossDie	
+	3099780112	AO_Ambience			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_Ambience	
+	3216143520	PlayerHeal			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerCombat\PlayerHeal	
+	3219725382	RT_Stereo			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\RoomTones\RT_Stereo	
+	3503583739	RT_Quad			\Default Work Unit\Master Audio Bus\Backgrounds_MainMix\RoomTones\RT_Quad	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3872082332	EnemyNormalDie			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal\EnemyNormalCombat\EnemyNormalDie	
+	3966601280	PlayerDie			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_MainCharacter\PlayerCombat\PlayerDie	
+	4176557225	EnemyBossFootsteps			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyBoss\EnemyBossLocomotion\EnemyBossFootsteps	
+	4239629333	AO_EnemyNormal			\Default Work Unit\Master Audio Bus\Positional_AudioObjects\AO_EnemyNormal	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	929309100	Reflect_Player			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Reflect\Reflect_Player	
+	1024696295	Cathedral			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Late Reverb\Cathedral	
+	1051895841	CathedralEntry			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Late Reverb\CathedralEntry	
+	1415357777	BossArea			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Late Reverb\BossArea	
+	2730119150	Outdoors			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Late Reverb\Outdoors	
+	3167965773	Reflect_NotPlayer			\Default Work Unit\Master Audio Bus\Environmental Aux Buses\Reflect\Reflect_NotPlayer	
+
+Effect plug-ins	ID	Name	Type				Notes
+	328572188	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
+	357519495	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
+	399532915	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
+	577293212	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

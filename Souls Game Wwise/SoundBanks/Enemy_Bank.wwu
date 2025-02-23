@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8BF7F538-B58F-4364-A9D1-0B5FA082D1FC}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Enemy_Bank" ID="{8BF7F538-B58F-4364-A9D1-0B5FA082D1FC}" PersistMode="Standalone"/>
+	</SoundBanks>
+</WwiseDocument>

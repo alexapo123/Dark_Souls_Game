@@ -87,6 +87,11 @@
 												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
 												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
@@ -138,7 +143,7 @@
 														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{2FF15DB5-16E2-4BEE-A4A0-30BA70BAFADC}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Torch_Ground_Crackle_L_lp1_02" ID="{EE7D5C97-A1FE-4EDE-BC07-4CDD32136B46}" ShortID="87613270">
+												<Sound Name="Torch_Ground_Crackle_L_lp1_03" ID="{EE7D5C97-A1FE-4EDE-BC07-4CDD32136B46}" ShortID="87613270">
 													<PropertyList>
 														<Property Name="Lowpass" Type="int16">
 															<ModifierList>
@@ -162,6 +167,44 @@
 																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
 																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.74224444237281"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.116647881813"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="725188490"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{FA09874E-ACC3-4E27-B14A-371F79582E79}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_01" ID="{1334217B-D74B-4AC5-B160-E01CFAE1C327}" ShortID="819234375">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{C3F15B46-1F54-4903-9400-6CA9D50A81BC}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{B5B4FF35-AEFB-4D0A-9CD4-D8E6569E3514}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 																<Property Name="TrimBegin" Type="Real64" Value="3.48187622660184"/>
 																<Property Name="TrimEnd" Type="Real64" Value="5.11986942776654"/>
 															</PropertyList>
@@ -173,7 +216,349 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{FA09874E-ACC3-4E27-B14A-371F79582E79}" Platform="Linked"/>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{B5B4FF35-AEFB-4D0A-9CD4-D8E6569E3514}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_02" ID="{293AE92A-20E1-4A82-A61A-130D8E4F17C6}" ShortID="489255427">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{846173A2-5523-4B1A-9ADB-CDA3D58DED29}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{77BB2E8C-861F-4F24-BE00-6C86DD94E06F}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.75038927198629"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.95202976297455"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="48127869"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{77BB2E8C-861F-4F24-BE00-6C86DD94E06F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_04" ID="{8F23B85F-1AF2-48B6-B52E-82C34E0D6C69}" ShortID="1034953514">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D4E2FE8A-494A-4331-ACDE-DDF9D6AF2FCE}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{276D519E-C0F2-4985-9413-C3BD3BE21D73}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="10.1408662003652"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.0540220387653"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1007047085"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{276D519E-C0F2-4985-9413-C3BD3BE21D73}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_05" ID="{EF980A2D-CCFC-4E30-8711-65D9683E4A2C}" ShortID="646227537">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9F548E4B-BFD6-4DC1-85DE-A5EC0109FE7F}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{0CCFCA2A-F7A2-49A8-962A-19081447D5B9}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="14.3343396823467"/>
+																<Property Name="TrimEnd" Type="Real64" Value="16.0622275115318"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="127075208"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{0CCFCA2A-F7A2-49A8-962A-19081447D5B9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_06" ID="{42FBFC4C-6DC2-4DEA-858B-50CCEF7A8276}" ShortID="794120482">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FADE0726-8E5C-48EA-875E-E0FA4E8763CE}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{5A04B423-F696-4632-8429-DF111638AC9D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="17.6198035383799"/>
+																<Property Name="TrimEnd" Type="Real64" Value="18.9494358505066"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="254423376"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{5A04B423-F696-4632-8429-DF111638AC9D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_07" ID="{32BB331E-F053-4A3B-95E6-B4EBA74619EB}" ShortID="359056310">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{0D310256-4213-49CF-AD29-F6A95750D586}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{0E618B28-8E45-4F58-BFC5-CA67DE487053}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="20.6324844835895"/>
+																<Property Name="TrimEnd" Type="Real64" Value="21.9006335111201"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="100039446"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{0E618B28-8E45-4F58-BFC5-CA67DE487053}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_08" ID="{D0D2FF72-EF54-4992-B84C-0F23426C513E}" ShortID="877169939">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{A2A6542E-532B-48A4-8CD8-099E99FBAC0E}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{E33843EE-3143-4191-9D91-156B5D94CF1A}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="22.7749051956462"/>
+																<Property Name="TrimEnd" Type="Real64" Value="24.259096647922"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="680569854"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{E33843EE-3143-4191-9D91-156B5D94CF1A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_09" ID="{D39009E7-69EE-43FD-8C9C-0B1C8DFC8B91}" ShortID="249885409">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{3CEBB150-113C-454C-AACE-D900A1F635B1}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{8F0944F9-EE68-4FCD-9667-BE242F59BA0C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="25.4918023553208"/>
+																<Property Name="TrimEnd" Type="Real64" Value="26.8286921543612"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="354917187"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{8F0944F9-EE68-4FCD-9667-BE242F59BA0C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_10" ID="{C99250B5-3806-46D0-A12D-974A7176C28C}" ShortID="124723323">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{1B642827-19D8-4265-AA04-38F979CB10BD}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{B7748560-02B5-4EE9-8FFE-7472556C6A1B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="28.6669713250611"/>
+																<Property Name="TrimEnd" Type="Real64" Value="30.1838964780558"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="311302217"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{B7748560-02B5-4EE9-8FFE-7472556C6A1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_11" ID="{5879B74B-57A4-4DEA-96C7-B59720DD4787}" ShortID="821393650">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{FBB28719-ACD4-4DB5-84C3-2045301B1A7B}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{C6A7D84E-A6C0-4B80-B3E4-7F0052714560}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="31.18305541425"/>
+																<Property Name="TrimEnd" Type="Real64" Value="32.6760178616334"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="680143194"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{C6A7D84E-A6C0-4B80-B3E4-7F0052714560}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -256,6 +641,18 @@
 											<PropertyList>
 												<Property Name="3DPosition" Type="int16" Value="1"/>
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0AFDF686-FC13-4155-9636-2A77D4D4350E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="30"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -274,6 +671,464 @@
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
 												</Reference>
 											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Torch_Ground_Crackle_L_lp1" ID="{35BE8613-6633-4B87-B0D8-0DCE44D4BB3B}" ShortID="138871072">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{E6C53C92-7C72-4984-8BFC-6A530F2D4A64}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{F41A86B9-BD3D-4D8F-A169-27DBE70D7512}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.359397745411833"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.318818777578397"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.44097407166728"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.90976703541186"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="364249683"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{F41A86B9-BD3D-4D8F-A169-27DBE70D7512}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_01" ID="{B23176A3-BD6D-4368-8E35-8261499A37AB}" ShortID="147518287">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{19D12574-5D6A-4E6D-8978-B58078BA9BC6}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{36B511FB-6FCC-4E1C-B87D-C4651FC4AC6D}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.48187622660184"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.11986942776654"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="772579153"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{36B511FB-6FCC-4E1C-B87D-C4651FC4AC6D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_02" ID="{F07234DF-93E9-4279-9254-0AA4FC082DA7}" ShortID="224593543">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8434078B-5755-4A59-8A93-127DD4A35784}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{B55BC75D-236F-4C1C-BA78-4F74569DD875}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.75038927198629"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.95202976297455"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="48127869"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{B55BC75D-236F-4C1C-BA78-4F74569DD875}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_03" ID="{73ADBCE7-175A-42A0-AED9-57489EC395E3}" ShortID="862136536">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{8E16CC17-CDF0-4ECD-B699-40D0D4A9A235}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{B2147C36-CF27-4D22-9BC7-A66B0E059E33}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="8.74224444237281"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.116647881813"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="725188490"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{B2147C36-CF27-4D22-9BC7-A66B0E059E33}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_04" ID="{EC93ACD6-326E-4B5B-BE75-0FAA21D311A4}" ShortID="756401696">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{83168CB7-C660-41D1-9D5A-72157B9FAE8E}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{F9A97578-9492-4653-8DD6-F853AB4BE456}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="10.1408662003652"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.0540220387653"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1007047085"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{F9A97578-9492-4653-8DD6-F853AB4BE456}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_05" ID="{920529BC-16F8-4C89-865A-A08CE129996D}" ShortID="550911712">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{2E31F5B9-155C-46FB-BBFB-19B0F94F8A80}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{F97335FE-ED00-4CC7-A8FB-53C40B921DDE}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="14.3343396823467"/>
+																<Property Name="TrimEnd" Type="Real64" Value="16.0622275115318"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="127075208"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{F97335FE-ED00-4CC7-A8FB-53C40B921DDE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_06" ID="{AA9218B7-2B96-44A3-952F-9F2F130EA9DB}" ShortID="696686511">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{AAAAC02F-117E-41AF-BC4D-8136A6E337E3}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{4DE2E3A6-4CF8-403A-9A9A-4229D854BF08}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="17.6198035383799"/>
+																<Property Name="TrimEnd" Type="Real64" Value="18.9494358505066"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="254423376"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{4DE2E3A6-4CF8-403A-9A9A-4229D854BF08}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_07" ID="{FD208E28-DD51-4516-AB53-B31C5EF545E7}" ShortID="422612692">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{ABA82EBD-F734-4801-8528-4417FD4537E2}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{708F06E8-EC5D-495F-ADF4-055736DEAD68}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="20.6324844835895"/>
+																<Property Name="TrimEnd" Type="Real64" Value="21.9006335111201"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="100039446"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{708F06E8-EC5D-495F-ADF4-055736DEAD68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_08" ID="{D9105870-6588-4BBD-8F3B-CAC749E8F71E}" ShortID="165670030">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{A14E4799-746D-4087-A61A-F8259A5187CF}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{D0A88BB9-CA04-4CC6-8AA2-4E66F9952283}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="22.7749051956462"/>
+																<Property Name="TrimEnd" Type="Real64" Value="24.259096647922"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="680569854"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{D0A88BB9-CA04-4CC6-8AA2-4E66F9952283}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_09" ID="{3EF7AA41-1274-46B8-B10C-376F6184F043}" ShortID="73943364">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{6EE65724-2BE2-4F83-A9E0-0F3A3FD4736D}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{F597AB37-D2A6-4AFD-B09F-FDCCA3440993}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="25.4918023553208"/>
+																<Property Name="TrimEnd" Type="Real64" Value="26.8286921543612"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="354917187"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{F597AB37-D2A6-4AFD-B09F-FDCCA3440993}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_10" ID="{065B36D6-FEFE-4FAE-B07C-BAD4242EE92B}" ShortID="856306512">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{D789415F-B1A9-474B-B438-D3F8CD707A04}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{FF595032-90D6-4B9C-8B47-6EDD34336B14}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="28.6669713250611"/>
+																<Property Name="TrimEnd" Type="Real64" Value="30.1838964780558"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="311302217"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{FF595032-90D6-4B9C-8B47-6EDD34336B14}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Torch_Ground_Crackle_L_lp1_11" ID="{0DF132D9-4080-48F9-89D7-667CD95E49A4}" ShortID="659750980">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{CE670AD4-FECC-4E8A-A149-9438C91C96D7}"/>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FFA281B6-49BB-4B98-A6AA-648AFDF21299}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{817A8589-952E-4521-81AF-2BDF1C9923B1}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Torch_Ground_Crackle_L_lp" ID="{144DD19D-20FE-4C28-9757-5048472B68F8}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.223639744456277"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.473767370571119"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="31.18305541425"/>
+																<Property Name="TrimEnd" Type="Real64" Value="32.6760178616334"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Torch_Ground_Crackle_L_lp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="680143194"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Torch_Ground_Crackle_L_lp" ID="{144DD19D-20FE-4C28-9757-5048472B68F8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
 											<PositioningInfo>
 												<Position Name="" ID="{12E3C0F0-E219-4705-B1F9-A9BBF9958FC3}">
 													<PropertyList>
@@ -371,7 +1226,7 @@
 										<Property Name="OverrideMetadata" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-6</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>

@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "Souls Game Wwise",
+   "GUID": "{EA221243-561F-44EB-A16D-CF865C157B59}",
+   "Generator": "2024.1.2.8726"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{61FDC4EB-0D50-4DFD-AAC2-F763CB9B3389}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{04D64438-43D4-427E-8B4F-144F083DFB1D}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{F7BD4299-86FC-05D6-EE7B-A71655B695B3}"
+ }
+}

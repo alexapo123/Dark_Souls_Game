@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{36CA729B-02B6-4927-AD6C-BD3C1D93D500}" SchemaVersion="123">
+	<SoundBanks>
+		<WorkUnit Name="Amb_Bank" ID="{36CA729B-02B6-4927-AD6C-BD3C1D93D500}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Amb_Bank" ID="{8896DABF-071B-4906-877A-F200544CFE8B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_Stop_Torch_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Torch_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

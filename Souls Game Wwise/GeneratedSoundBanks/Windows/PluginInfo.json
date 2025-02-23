@@ -1,0 +1,31 @@
+{
+ "PluginInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "PluginLibs": [
+   {
+    "LibName": "System",
+    "LibId": "11403271",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "No Output",
+    "LibId": "11862023",
+    "Type": "AudioDevice"
+   },
+   {
+    "LibName": "Wwise 3D Audio Bed Mixer",
+    "LibId": "12451843",
+    "Type": "Effect",
+    "DLL": "Ak3DAudioBedMixer",
+    "StaticLib": "Ak3DAudioBedMixerFX"
+   },
+   {
+    "LibName": "Wwise System Output Settings",
+    "LibId": "58982409",
+    "Type": "Metadata"
+   }
+  ],
+  "FileHash": "{581A0C47-22C4-66B7-DAE1-2438EB1D762F}"
+ }
+}

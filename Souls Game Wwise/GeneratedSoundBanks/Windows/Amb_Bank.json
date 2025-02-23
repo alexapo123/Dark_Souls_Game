@@ -1,0 +1,218 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1838976376",
+    "Type": "User",
+    "GUID": "{8896DABF-071B-4906-877A-F200544CFE8B}",
+    "Language": "SFX",
+    "Hash": "{2AEB6799-EFE5-1152-966A-67139386120B}",
+    "ObjectPath": "\\SoundBanks\\Amb_Bank\\Amb_Bank",
+    "ShortName": "Amb_Bank",
+    "Path": "Amb_Bank.bnk",
+    "Media": [
+     {
+      "Id": "48127869",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "9A/{9AEEFB8A-1703-940C-0E9F-215BC634E605}.wem"
+     },
+     {
+      "Id": "100039446",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "EF/{EF378850-16AA-F24B-23F6-A3884F841D28}.wem"
+     },
+     {
+      "Id": "127075208",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "B8/{B81BBCF8-D8AB-1ABE-6E9D-85B6A830A9DC}.wem"
+     },
+     {
+      "Id": "183302794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_ML_lp.wav",
+      "CachePath": "21/{2125AD50-AC6D-7157-3D60-E3B8E6555E40}.wem"
+     },
+     {
+      "Id": "254423376",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "8F/{8FE7EC13-29B7-908B-B265-29750FB81236}.wem"
+     },
+     {
+      "Id": "311302217",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "40/{40E95502-85F8-DE91-89D2-A08E3A9E3C25}.wem"
+     },
+     {
+      "Id": "354917187",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "1E/{1E59648E-3EDA-EF97-003F-8BD8A87715A1}.wem"
+     },
+     {
+      "Id": "364249683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "66/{66CAF1F6-188F-2441-8754-947916EED73A}.wem"
+     },
+     {
+      "Id": "481012466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Rumble_L_lp.wav",
+      "CachePath": "66/{66DA7B05-BE4B-E3CC-DBBB-C0AC2407439E}.wem"
+     },
+     {
+      "Id": "680143194",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "E6/{E6CC2DE7-603A-D358-A8FE-9B69493F9300}.wem"
+     },
+     {
+      "Id": "680569854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "69/{69DD3BD1-274D-B334-E192-1D51CDB21123}.wem"
+     },
+     {
+      "Id": "725188490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "82/{826DA4F9-6FFE-95A0-D06A-03DE644CC2E4}.wem"
+     },
+     {
+      "Id": "772579153",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "25/{2524CB89-FA13-5C48-151F-B64B89D26363}.wem"
+     },
+     {
+      "Id": "1007047085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_Crackle_L_lp.wav",
+      "CachePath": "C6/{C63D073E-7032-51C3-4764-4E980FDB0066}.wem"
+     }
+    ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2179744056",
+       "Name": "MixBehaviour_MainMix",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\MixBehaviour_MainMix",
+       "GUID": "{829EC8B2-EDFF-4741-972C-4A174D68FA5A}",
+       "LibName": "Wwise System Output Settings",
+       "LibId": "58982409"
+      },
+      {
+       "Id": "3608048489",
+       "Name": "MixBehaviour_Passthrough",
+       "ObjectPath": "\\Metadata\\Default Work Unit\\MixBehaviour_Passthrough",
+       "GUID": "{591247FC-018F-4B03-858C-6495126437DD}",
+       "LibName": "Wwise System Output Settings",
+       "LibId": "58982409"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "1501534786",
+      "Name": "Play_Stop_Torch_Loop",
+      "ObjectPath": "\\Events\\Ambience\\WorldObjects\\Loops\\Torches\\Play_Stop_Torch_Loop",
+      "GUID": "{1EDDF082-FC21-4594-B8FF-E8D3866F3645}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1754742481",
+      "Name": "Play_Torch_Loop",
+      "ObjectPath": "\\Events\\Ambience\\WorldObjects\\Loops\\Torches\\Play_Torch_Loop",
+      "GUID": "{4F059306-0340-4CDA-935D-721DEEE68CFA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "48127869"
+       },
+       {
+        "Id": "100039446"
+       },
+       {
+        "Id": "127075208"
+       },
+       {
+        "Id": "183302794"
+       },
+       {
+        "Id": "254423376"
+       },
+       {
+        "Id": "311302217"
+       },
+       {
+        "Id": "354917187"
+       },
+       {
+        "Id": "364249683"
+       },
+       {
+        "Id": "481012466"
+       },
+       {
+        "Id": "680143194"
+       },
+       {
+        "Id": "680569854"
+       },
+       {
+        "Id": "725188490"
+       },
+       {
+        "Id": "772579153"
+       },
+       {
+        "Id": "1007047085"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B902F751-68A0-6F83-7D7A-DE20F467B3A4}"
+ }
+}
