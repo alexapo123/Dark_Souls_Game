@@ -5,8 +5,10 @@
 			<ChildrenList>
 				<SoundBank Name="Amb_Bank" ID="{8896DABF-071B-4906-877A-F200544CFE8B}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Stop_Torch_Ground_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Torch_Ground_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Torch_1_Loop" ID="{FB96ED55-7DC5-4047-BC9D-290037BBFC6B}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_Torch_2_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Torch_2_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Stop_Torch_1_Loop" ID="{C905B747-A91C-4F0B-8E14-03FC27F12E5B}" WorkUnitID="{CDF7611F-101B-41F9-8D25-29689BBF3807}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

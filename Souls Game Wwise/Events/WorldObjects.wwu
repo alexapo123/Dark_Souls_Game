@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Folder Name="Torches" ID="{C530EA27-2E3F-4620-AE48-E70C1A17CB94}" ShortID="147783646">
 							<ChildrenList>
-								<Event Name="Play_Torch_Ground_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}">
+								<Event Name="Play_Torch_2_Loop" ID="{4F059306-0340-4CDA-935D-721DEEE68CFA}">
 									<ChildrenList>
 										<Action Name="" ID="{0DB78DF3-1904-447E-872E-6FD7A2149E32}" ShortID="773835181">
 											<ReferenceList>
@@ -78,7 +78,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Stop_Torch_Ground_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}">
+								<Event Name="Play_Stop_Torch_2_Loop" ID="{1EDDF082-FC21-4594-B8FF-E8D3866F3645}">
 									<ChildrenList>
 										<Action Name="" ID="{D8CA8A4E-C2A2-4633-8BD4-EA47680323DA}" ShortID="920973030">
 											<PropertyList>
@@ -112,7 +112,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Torch_Ceiling_Loop" ID="{FB96ED55-7DC5-4047-BC9D-290037BBFC6B}">
+								<Event Name="Play_Torch_1_Loop" ID="{FB96ED55-7DC5-4047-BC9D-290037BBFC6B}">
 									<ChildrenList>
 										<Action Name="" ID="{F03B9DDC-4DB7-4E77-B39F-EAB26CB87C20}" ShortID="201436483">
 											<ReferenceList>
@@ -183,7 +183,7 @@
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Stop_Torch_Ceiling_Loop" ID="{C905B747-A91C-4F0B-8E14-03FC27F12E5B}">
+								<Event Name="Play_Stop_Torch_1_Loop" ID="{C905B747-A91C-4F0B-8E14-03FC27F12E5B}">
 									<ChildrenList>
 										<Action Name="" ID="{7A571531-FDA4-4E92-9EC7-E8F8FD94525A}" ShortID="415454626">
 											<PropertyList>
