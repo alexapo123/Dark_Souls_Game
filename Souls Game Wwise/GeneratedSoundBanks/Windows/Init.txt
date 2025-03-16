@@ -71,7 +71,11 @@ Effect plug-ins	ID	Name	Type				Notes
 	328572188	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
 	357519495	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
 	399532915	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
+	559993619	Colossal_Cathedral_Ambisonics (Custom)	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 20ms 
 	577293212	3D Audio Bed Mixer (Custom)	Wwise 3D Audio Bed Mixer			
+	746426747	Reflect_Physically_Based (Custom)	Wwise Reflect			
+	832453593	Reflect_Physically_Based (Custom)	Wwise Reflect			
+	1018813941	Dark_Cathedral_Ambisonics (Custom)	Wwise Convolution Reverb			Impulse response created by Pinguin ing.büro © 2010 Pinguin ing.büro.  All rights reserved. IR Pre-delay: 20ms  
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

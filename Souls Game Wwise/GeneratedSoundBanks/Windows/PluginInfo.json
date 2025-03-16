@@ -4,6 +4,20 @@
   "BasePlatform": "Windows",
   "PluginLibs": [
    {
+    "LibName": "Wwise Convolution Reverb",
+    "LibId": "8323075",
+    "Type": "Effect",
+    "DLL": "AkConvolutionReverb",
+    "StaticLib": "AkConvolutionReverbFX"
+   },
+   {
+    "LibName": "Wwise Reflect",
+    "LibId": "11206659",
+    "Type": "Effect",
+    "DLL": "AkReflect",
+    "StaticLib": "AkReflectFX"
+   },
+   {
     "LibName": "System",
     "LibId": "11403271",
     "Type": "AudioDevice"
@@ -26,6 +40,6 @@
     "Type": "Metadata"
    }
   ],
-  "FileHash": "{581A0C47-22C4-66B7-DAE1-2438EB1D762F}"
+  "FileHash": "{08C3E06C-40CB-40AC-DD85-E38A19C82A8A}"
  }
 }

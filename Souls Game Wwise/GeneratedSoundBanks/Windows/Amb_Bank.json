@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8896DABF-071B-4906-877A-F200544CFE8B}",
     "Language": "SFX",
-    "Hash": "{C7978398-9DAE-F158-361C-3276E495972B}",
+    "Hash": "{29D13AFD-180F-2443-B76A-1B607C940785}",
     "ObjectPath": "\\SoundBanks\\Amb_Bank\\Amb_Bank",
     "ShortName": "Amb_Bank",
     "Path": "Amb_Bank.bnk",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Torch_Ground_ML_lp.wav",
-      "CachePath": "2A/{2A7AF175-4880-2C4B-6690-2B6FB3000647}.wem"
+      "CachePath": "DE/{DE06A702-F4B8-51EC-1EA9-E55D08C9C205}.wem"
      },
      {
       "Id": "254423376",
@@ -205,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Torch_Ground_ML_lp.wav",
-      "CachePath": "12/{12C82852-3E07-277C-1147-D97A1DEF48D7}.wem"
+      "CachePath": "A6/{A6370ECD-8D1A-00B2-0BD2-891A307BBE23}.wem"
      },
      {
       "Id": "772579153",
@@ -380,6 +380,6 @@
     ]
    }
   ],
-  "FileHash": "{38B8D37C-60CE-0AC1-16F4-56A99FA58B27}"
+  "FileHash": "{F65A8B6E-AF24-5512-C408-527015B6E997}"
  }
 }

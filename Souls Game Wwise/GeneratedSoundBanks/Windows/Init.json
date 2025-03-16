@@ -10,10 +10,30 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8DE8FCC1-3B11-A383-0341-E9FD3B8AFCCA}",
+    "Hash": "{717A385A-46C1-2E7A-2962-6EDD76739D14}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
+    "Media": [
+     {
+      "Id": "529687837",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AK_Factory_IR_Amb\\Churches\\AK Amb St-Katharinen.wav",
+      "Path": "Media/529687837.wem",
+      "CachePath": "3F/{3F10FF27-6796-E830-C547-3AEC6128A1B0}.wem"
+     },
+     {
+      "Id": "841364558",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AK_Factory_IR_Amb\\Churches\\AK Amb St-Katharinen.wav",
+      "Path": "Media/841364558.wem",
+      "CachePath": "CF/{CF9F9636-90E1-60FD-2A2F-552E69AFE5B3}.wem"
+     }
+    ],
     "Plugins": {
      "Custom": [
       {
@@ -41,12 +61,54 @@
        "LibId": "12451843"
       },
       {
+       "Id": "559993619",
+       "Name": "Colossal_Cathedral_Ambisonics (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Late Reverb\\Cathedral\\[Effect Slot [0]: (AK Convolution Reverb)]\\Colossal_Cathedral_Ambisonics (Custom)",
+       "GUID": "{77E80289-9394-4629-8626-E83D7116CFE2}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "841364558"
+        }
+       ]
+      },
+      {
        "Id": "577293212",
        "Name": "3D Audio Bed Mixer (Custom)",
        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Positional_AudioObjects\\AO_Ambience\\[Effect Slot [0]: (3D Audio Bed Mixer)]\\3D Audio Bed Mixer (Custom)",
        "GUID": "{4C2337CC-B82C-4E4A-A579-0219735E3DE7}",
        "LibName": "Wwise 3D Audio Bed Mixer",
        "LibId": "12451843"
+      },
+      {
+       "Id": "746426747",
+       "Name": "Reflect_Physically_Based (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Reflect\\Reflect_Player\\[Effect Slot [0]: (Reflect)]\\Reflect_Physically_Based (Custom)",
+       "GUID": "{3EFCD59D-9B9D-441A-8F81-BBE3136BDB5C}",
+       "LibName": "Wwise Reflect",
+       "LibId": "11206659"
+      },
+      {
+       "Id": "832453593",
+       "Name": "Reflect_Physically_Based (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Reflect\\Reflect_NotPlayer\\[Effect Slot [0]: (Reflect)]\\Reflect_Physically_Based (Custom)",
+       "GUID": "{B9900E2B-7CB7-499A-9C62-3CAA7B969AB9}",
+       "LibName": "Wwise Reflect",
+       "LibId": "11206659"
+      },
+      {
+       "Id": "1018813941",
+       "Name": "Dark_Cathedral_Ambisonics (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Late Reverb\\BossArea\\[Effect Slot [0]: (AK Convolution Reverb)]\\Dark_Cathedral_Ambisonics (Custom)",
+       "GUID": "{47EB90AA-4DCE-4D15-9F5A-9A8A064DA28C}",
+       "LibName": "Wwise Convolution Reverb",
+       "LibId": "8323075",
+       "MediaRefs": [
+        {
+         "Id": "529687837"
+        }
+       ]
       }
      ],
      "AudioDevices": [
@@ -362,13 +424,27 @@
       "Name": "Reflect_Player",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Reflect\\Reflect_Player",
       "GUID": "{E18808F4-712D-44FF-B29B-5EA3DB29F24B}",
-      "MaxAttenuation": "10000"
+      "MaxAttenuation": "10000",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "746426747"
+        }
+       ]
+      }
      },
      {
       "Id": "1024696295",
       "Name": "Cathedral",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Late Reverb\\Cathedral",
-      "GUID": "{6BE6CB5C-5FC8-494C-9F27-9F3FC38E2F5B}"
+      "GUID": "{6BE6CB5C-5FC8-494C-9F27-9F3FC38E2F5B}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "559993619"
+        }
+       ]
+      }
      },
      {
       "Id": "1051895841",
@@ -380,7 +456,14 @@
       "Id": "1415357777",
       "Name": "BossArea",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Late Reverb\\BossArea",
-      "GUID": "{B47362E2-DED7-4384-9626-9EDE8F9C2689}"
+      "GUID": "{B47362E2-DED7-4384-9626-9EDE8F9C2689}",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "1018813941"
+        }
+       ]
+      }
      },
      {
       "Id": "2730119150",
@@ -393,7 +476,14 @@
       "Name": "Reflect_NotPlayer",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Environmental Aux Buses\\Reflect\\Reflect_NotPlayer",
       "GUID": "{725E4167-38BD-48C2-B212-4DB76C9CA3EB}",
-      "MaxAttenuation": "10000"
+      "MaxAttenuation": "10000",
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "832453593"
+        }
+       ]
+      }
      }
     ],
     "GameParameters": [
@@ -971,6 +1061,6 @@
     ]
    }
   ],
-  "FileHash": "{A26766F4-FA00-9151-1427-C5FA4FD554F2}"
+  "FileHash": "{A5AA9AA3-8E6B-89F1-6FBD-D7442C0C9744}"
  }
 }
