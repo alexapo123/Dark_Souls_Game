@@ -7,7 +7,7 @@
 					<ChildrenList>
 						<Attenuation Name="att_Torch_Crackle" ID="{4FD95EBE-7FC0-4558-A460-D39963D9D9D6}" ShortID="109723669">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="800"/>
+								<Property Name="RadiusMax" Type="Real64" Value="1200"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -23,32 +23,32 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>64</XPos>
+													<XPos>96</XPos>
 													<YPos>-3</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>160</XPos>
+													<XPos>240</XPos>
 													<YPos>-6</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>260</XPos>
+													<XPos>390</XPos>
 													<YPos>-8</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>412</XPos>
+													<XPos>618</XPos>
 													<YPos>-11</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>612</XPos>
+													<XPos>918</XPos>
 													<YPos>-17</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>800</XPos>
+													<XPos>1200</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -75,12 +75,12 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>400</XPos>
+													<XPos>600</XPos>
 													<YPos>30</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>800</XPos>
+													<XPos>1200</XPos>
 													<YPos>30</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -101,12 +101,12 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>400</XPos>
+													<XPos>600</XPos>
 													<YPos>45</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>800</XPos>
+													<XPos>1200</XPos>
 													<YPos>56</YPos>
 													<Flags>37</Flags>
 												</Point>
@@ -160,7 +160,7 @@
 						</Attenuation>
 						<Attenuation Name="att_Torch" ID="{08F70723-9639-4003-BEC4-68BE67E6534E}" ShortID="314800757">
 							<PropertyList>
-								<Property Name="RadiusMax" Type="Real64" Value="1500"/>
+								<Property Name="RadiusMax" Type="Real64" Value="2000"/>
 							</PropertyList>
 							<CurveUsageInfoList>
 								<VolumeDryUsage>
@@ -176,32 +176,32 @@
 													<Flags>5</Flags>
 												</Point>
 												<Point>
-													<XPos>45</XPos>
+													<XPos>60</XPos>
 													<YPos>0</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>180</XPos>
+													<XPos>240</XPos>
 													<YPos>-6</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>408</XPos>
+													<XPos>544</XPos>
 													<YPos>-12</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>600</XPos>
+													<XPos>800</XPos>
 													<YPos>-18</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>840</XPos>
+													<XPos>1120</XPos>
 													<YPos>-25</YPos>
 													<Flags>0</Flags>
 												</Point>
 												<Point>
-													<XPos>1500</XPos>
+													<XPos>2000</XPos>
 													<YPos>-200</YPos>
 													<Flags>37</Flags>
 												</Point>

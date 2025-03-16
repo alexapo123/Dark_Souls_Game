@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{8896DABF-071B-4906-877A-F200544CFE8B}",
     "Language": "SFX",
-    "Hash": "{E95789E0-FD39-7DC0-C78E-75BB7BFCD5A1}",
+    "Hash": "{C7978398-9DAE-F158-361C-3276E495972B}",
     "ObjectPath": "\\SoundBanks\\Amb_Bank\\Amb_Bank",
     "ShortName": "Amb_Bank",
     "Path": "Amb_Bank.bnk",
@@ -77,7 +77,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Torch_Ground_ML_lp.wav",
-      "CachePath": "21/{2125AD50-AC6D-7157-3D60-E3B8E6555E40}.wem"
+      "CachePath": "2A/{2A7AF175-4880-2C4B-6690-2B6FB3000647}.wem"
      },
      {
       "Id": "254423376",
@@ -200,6 +200,14 @@
       "CachePath": "60/{604455F0-18DD-3F67-B912-55CE69AB9FAF}.wem"
      },
      {
+      "Id": "745010601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Torch_Ground_ML_lp.wav",
+      "CachePath": "12/{12C82852-3E07-277C-1147-D97A1DEF48D7}.wem"
+     },
+     {
       "Id": "772579153",
       "Language": "SFX",
       "Streaming": "false",
@@ -270,7 +278,7 @@
       "Name": "Play_Torch_1_Loop",
       "ObjectPath": "\\Events\\Ambience\\WorldObjects\\Loops\\Torches\\Play_Torch_1_Loop",
       "GUID": "{FB96ED55-7DC5-4047-BC9D-290037BBFC6B}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -322,7 +330,7 @@
       "Name": "Play_Torch_2_Loop",
       "ObjectPath": "\\Events\\Ambience\\WorldObjects\\Loops\\Torches\\Play_Torch_2_Loop",
       "GUID": "{4F059306-0340-4CDA-935D-721DEEE68CFA}",
-      "MaxAttenuation": "1500",
+      "MaxAttenuation": "2000",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -333,9 +341,6 @@
        },
        {
         "Id": "127075208"
-       },
-       {
-        "Id": "183302794"
        },
        {
         "Id": "254423376"
@@ -362,6 +367,9 @@
         "Id": "725188490"
        },
        {
+        "Id": "745010601"
+       },
+       {
         "Id": "772579153"
        },
        {
@@ -372,6 +380,6 @@
     ]
    }
   ],
-  "FileHash": "{4815A769-9C4E-3C3C-C66C-39B637784A2A}"
+  "FileHash": "{38B8D37C-60CE-0AC1-16F4-56A99FA58B27}"
  }
 }

@@ -1208,10 +1208,15 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Torch_Ground_ML_lp" ID="{B66A9990-70A9-4212-8DD7-1F0B6EA78482}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.000131665577565165"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="7.30622108214441"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Torch_Ground_ML_lp.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="183302794"/>
+												<MediaID ID="745010601"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2457,6 +2462,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Torch_Ground_ML_lp" ID="{B62F97BE-5DD5-42A7-8D26-8C42D08F5BF0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="6.40478263207456E-05"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="9.11433778599252"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Torch_Ground_ML_lp.wav</AudioFile>
 											<MediaIDList>
